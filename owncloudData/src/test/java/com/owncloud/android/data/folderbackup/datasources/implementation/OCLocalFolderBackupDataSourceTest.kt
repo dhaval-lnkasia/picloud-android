@@ -98,7 +98,7 @@ class OCLocalFolderBackupDataSourceTest {
         ocLocalFolderBackupDataSource.saveFolderBackupConfiguration(OC_BACKUP)
 
         verify(exactly = 1) {
-            folderBackupDao.update(OC_BACKUP_ENTITY)
+            folderBackupDao.upsert(OC_BACKUP_ENTITY)
         }
     }
 
