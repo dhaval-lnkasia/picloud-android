@@ -2,7 +2,9 @@
  * ownCloud Android client application
  *
  * @author Abel García de Prada
- * Copyright (C) 2021 ownCloud GmbH.
+ * @author Juan Carlos Garrote Gascón
+ *
+ * Copyright (C) 2025 ownCloud GmbH.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -20,10 +22,8 @@
 package com.owncloud.android.data.folderbackup.db
 
 import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import androidx.room.Transaction
+import androidx.room.Upsert
 import com.owncloud.android.data.ProviderMeta
 import kotlinx.coroutines.flow.Flow
 
@@ -39,17 +39,11 @@ interface FolderBackupDao {
         name: String
     ): Flow<FolderBackUpEntity?>
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertOrReplace(folderBackUpEntity: FolderBackUpEntity): Long
-
     @Query(DELETE)
     fun delete(name: String): Int
 
-    @Transaction
-    fun update(folderBackUpEntity: FolderBackUpEntity): Long {
-        delete(folderBackUpEntity.name)
-        return insertOrReplace(folderBackUpEntity)
-    }
+    @Upsert
+    fun upsert(folderBackUpEntity: FolderBackUpEntity)
 
     companion object {
         private const val SELECT = """

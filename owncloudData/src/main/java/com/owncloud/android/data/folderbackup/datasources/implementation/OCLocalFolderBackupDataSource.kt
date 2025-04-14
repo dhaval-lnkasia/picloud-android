@@ -50,7 +50,7 @@ class OCLocalFolderBackupDataSource(
         folderBackupDao.getFolderBackUpConfigurationByNameAsFlow(name = name).map { it?.toModel() }
 
     override fun saveFolderBackupConfiguration(folderBackUpConfiguration: FolderBackUpConfiguration) {
-        folderBackupDao.update(folderBackUpConfiguration.toEntity())
+        folderBackupDao.upsert(folderBackUpConfiguration.toEntity())
     }
 
     override fun resetFolderBackupConfigurationByName(name: String) {
