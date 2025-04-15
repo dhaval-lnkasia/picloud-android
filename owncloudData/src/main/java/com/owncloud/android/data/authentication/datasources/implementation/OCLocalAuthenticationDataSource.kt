@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David González Verdugo
  * Copyright (C) 2020 LNKASIA TECHSOL.
@@ -233,7 +233,7 @@ class OCLocalAuthenticationDataSource(
 
         val accountName = preferencesProvider.getString(SELECTED_ACCOUNT, null)
 
-        // account validation: the saved account MUST be in the list of ownCloud Accounts known by the AccountManager
+        // account validation: the saved account MUST be in the list of PiCloud Accounts known by the AccountManager
         if (accountName != null) {
             for (account in ocAccounts) {
                 if (account.name == accountName) {

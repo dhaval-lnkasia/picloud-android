@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * Copyright (C) 2022 LNKASIA TECHSOL.
  *

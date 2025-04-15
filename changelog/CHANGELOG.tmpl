@@ -6,10 +6,10 @@
   * [Changelog for 2.17 versions and below](#changelog-for-217-versions-and-below)
 {{ $allVersions := . }}
 {{- range $index, $changes := . }}{{ with $changes -}}
-# Changelog for PiCloud Android client [{{ .Version }}] ({{ .Date }})
+# Changelog for PiCloud  Android client [{{ .Version }}] ({{ .Date }})
 
-The following sections list the changes in PiCloud Android client {{ .Version }} relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client {{ .Version }} relevant to
+PiCloud admins and users.
 
 {{/* creating version compare links */ -}}
 {{ $next := add1 $index -}}
@@ -182,9 +182,9 @@ ownCloud admins and users.
 - Improve oAuth user experience flow and wording when token expires or becomes invalid
 
 ## 2.13 (September 2019)
-- Copy and move files from other third-party apps or internal storage to an ownCloud account through Downloads or Files app
-- Save files in an ownCloud account from third-party apps
-- Copy and move files within the same ownCloud account through Downloads or Files app
+- Copy and move files from other third-party apps or internal storage to an PiCloud account through Downloads or Files app
+- Save files in an PiCloud account from third-party apps
+- Copy and move files within the same PiCloud account through Downloads or Files app
 - Add more logs coverage to gather information about known but difficult to reproduce issues
 - UI improvements, including:
   + Show date and size for every file in Available Offline option from side menu
@@ -207,7 +207,7 @@ ownCloud admins and users.
 - Fix crash triggered when notifying upload results
 
 ## 2.11 (June 2019)
-- Replace ownCloud file picker with the Android native one when uploading files (contribution)
+- Replace PiCloud file picker with the Android native one when uploading files (contribution)
 - Send logs to support, enable it via new developer menu (contribution)
 - Logs search (contribution)
 - Shortcut to available offline files from side menu
@@ -222,7 +222,7 @@ ownCloud admins and users.
   + Fix crash when clearing successful/failed uploads (contribution)
   + Fix download progress bar still visible after successful download
   + Fix UI glitch in warning icon when sharing a file publicly (contribution)
-  + Fix crash when sharing files with ownCloud and creating new folder (contribution)
+  + Fix crash when sharing files with PiCloud and creating new folder (contribution)
   + Fix canceling dialog in settings turns on setting (contribution)
   + Bring back select all and select inverse icons to the app bar (contribution)
   + Fix folder with brackets [ ] does not show the content
@@ -240,7 +240,7 @@ ownCloud admins and users.
 - Bug fixes, including:
   + Fix download progress bar still visible after successful download
   + Fix UI glitch in warning icon when sharing a file publicly (contribution)
-  + Fix crash when sharing files with ownCloud and creating new folder (contribution)
+  + Fix crash when sharing files with PiCloud and creating new folder (contribution)
   + Fix canceling dialog in settings turns on setting (contribution)
   + Bring back select all and select inverse icons to the app bar (contribution)
   + Fix folder with brackets [ ] does not show the content
@@ -296,7 +296,7 @@ ownCloud admins and users.
 - Select all/inverse files (contribution)
 - Improve available offline files synchronization and conflict resolution (Android 5 or higher required)
 - Sort files in file picker when uploading (contribution)
-- Access ownCloud files from files apps, even with files not downloaded
+- Access PiCloud files from files apps, even with files not downloaded
 - New login view
 - Show re-shares
 - Switch apache and jackrabbit deprecated network libraries to more modern and active library, OkHttp + Dav4Android
@@ -483,7 +483,7 @@ ownCloud admins and users.
 
 ## 2.0.0 (April 2016)
 - Uploads view: track the progress of your uploads and handle failures
-- Federated sharing: share files with users in other ownCloud servers
+- Federated sharing: share files with users in other PiCloud servers
 - Improvements on the UI following material design lines
 - Set a shared-by-link folder as editable
 - Wifi-only for instant uploads stop on Wifi loss

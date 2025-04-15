@@ -1,4 +1,4 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   Copyright (C) 2024 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -39,7 +39,7 @@ import java.net.URL
 import java.util.concurrent.TimeUnit
 
 /**
- * Remote operation performing the read a file from the ownCloud server.
+ * Remote operation performing the read a file from the PiCloud server.
  *
  * @author David A. Velasco
  * @author masensio
@@ -55,7 +55,7 @@ class ReadRemoteFileOperation(
     /**
      * Performs the read operation.
      *
-     * @param client Client object to communicate with the remote ownCloud server.
+     * @param client Client object to communicate with the remote PiCloud server.
      */
     override fun run(client: OwnCloudClient): RemoteOperationResult<RemoteFile> {
         try {

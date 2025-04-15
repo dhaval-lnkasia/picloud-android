@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Abel García de Prada
  * @author Juan Carlos Garrote Gascón
@@ -147,7 +147,7 @@ class OCRemoteServerInfoDataSourceTest {
     }
 
     @Test(expected = OwncloudVersionNotSupportedException::class)
-    fun `getRemoteStatus throws exception when ownCloud version is not supported`() {
+    fun `getRemoteStatus throws exception when PiCloud version is not supported`() {
         val expectedValue = remoteServerInfo.copy(ownCloudVersion = OwnCloudVersion("9.0.0"))
         prepareRemoteStatusToBeRetrieved(expectedValue)
 
@@ -155,7 +155,7 @@ class OCRemoteServerInfoDataSourceTest {
     }
 
     @Test
-    fun `getRemoteStatus returns RemoteServerInfo with hidden ownCloud version`() {
+    fun `getRemoteStatus returns RemoteServerInfo with hidden PiCloud version`() {
         val expectedValue = remoteServerInfo.copy(ownCloudVersion = OwnCloudVersion(""))
         prepareRemoteStatusToBeRetrieved(expectedValue)
 

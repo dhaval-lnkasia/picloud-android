@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  * <p>
  * Copyright (C) 2016 LNKASIA TECHSOL.
  * <p>
@@ -87,7 +87,7 @@ public class MimetypeIconUtil {
 
     /**
      * Returns a single MIME type of all the possible, by inspection of the file extension, and taking
-     * into account the MIME types known by ownCloud first.
+     * into account the MIME types known by PiCloud first.
      *
      * @param filename      Name of file
      * @return A single MIME type, "application/octet-stream" for unknown file extensions.

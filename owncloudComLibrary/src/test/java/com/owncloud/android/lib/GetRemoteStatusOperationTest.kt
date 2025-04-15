@@ -1,4 +1,4 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   Copyright (C) 2021 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -126,9 +126,9 @@ class GetRemoteStatusOperationTest {
     }
 
     companion object {
-        const val SOME_OWNCLOUD = "some_owncloud.com"
-        const val HTTP_SOME_OWNCLOUD = "$HTTP_PREFIX$SOME_OWNCLOUD"
-        const val HTTPS_SOME_OWNCLOUD = "$HTTPS_PREFIX$SOME_OWNCLOUD"
+        const val SOME_PiCloud = "some_owncloud.com"
+        const val HTTP_SOME_PiCloud = "$HTTP_PREFIX$SOME_OWNCLOUD"
+        const val HTTPS_SOME_PiCloud = "$HTTPS_PREFIX$SOME_OWNCLOUD"
 
         const val SOME_OWNCLOUD_WITH_SUBDIR = "some_owncloud.com/subdir"
         const val HTTP_SOME_OWNCLOUD_WITH_SUBDIR = "$HTTP_PREFIX$SOME_OWNCLOUD_WITH_SUBDIR"

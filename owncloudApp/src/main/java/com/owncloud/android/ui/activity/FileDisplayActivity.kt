@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
@@ -201,7 +201,7 @@ class FileDisplayActivity : FileActivity(),
     override fun onCreate(savedInstanceState: Bundle?) {
         Timber.v("onCreate() start")
 
-        super.onCreate(savedInstanceState) // this calls onAccountChanged() when ownCloud Account is valid
+        super.onCreate(savedInstanceState) // this calls onAccountChanged() when PiCloud Account is valid
 
         checkPasscodeEnforced(this)
 
@@ -333,7 +333,7 @@ class FileDisplayActivity : FileActivity(),
     }
 
     /**
-     * Called when the ownCloud [Account] associated to the Activity was just updated.
+     * Called when the PiCloud [Account] associated to the Activity was just updated.
      */
     override fun onAccountSet(stateWasRecovered: Boolean) {
         super.onAccountSet(stateWasRecovered)

@@ -1,4 +1,4 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   Copyright (C) 2022 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -457,13 +457,13 @@ public class RemoteOperationResult<T>
         }
 
         if (mCode == ResultCode.INSTANCE_NOT_CONFIGURED) {
-            return "The ownCloud server is not configured!";
+            return "The PiCloud server is not configured!";
 
         } else if (mCode == ResultCode.NO_NETWORK_CONNECTION) {
             return "No network connection";
 
         } else if (mCode == ResultCode.BAD_OC_VERSION) {
-            return "No valid ownCloud version was found at the server";
+            return "No valid PiCloud version was found at the server";
 
         } else if (mCode == ResultCode.LOCAL_STORAGE_FULL) {
             return "Local storage full";

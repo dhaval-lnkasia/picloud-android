@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Parneet Singh
  * @author David A. Velasco
@@ -142,7 +142,7 @@ class PreviewVideoActivity : FileActivity(), Player.Listener, OnPrepareVideoPlay
         }
 
         checkNotNull(file) { "Instanced with a NULL OCFile" }
-        checkNotNull(account) { "Instanced with a NULL ownCloud Account" }
+        checkNotNull(account) { "Instanced with a NULL PiCloud Account" }
         check(file.isVideo) { "Not a video file" }
 
         supportActionBar?.run {

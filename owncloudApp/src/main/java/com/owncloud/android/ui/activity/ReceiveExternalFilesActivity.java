@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartek Przybylski
  * @author masensio
@@ -122,7 +122,7 @@ import static org.koin.java.KoinJavaComponent.get;
 import static org.koin.java.KoinJavaComponent.inject;
 
 /**
- * This can be used to upload things to an ownCloud instance.
+ * This can be used to upload things to an PiCloud instance.
  */
 public class ReceiveExternalFilesActivity extends FileActivity
         implements OnItemClickListener,
@@ -312,10 +312,10 @@ public class ReceiveExternalFilesActivity extends FileActivity
             mAccountManager = (AccountManager) getSystemService(Context.ACCOUNT_SERVICE);
             Account[] accounts = mAccountManager.getAccountsByType(MainApp.Companion.getAccountType());
             if (accounts.length == 0) {
-                Timber.i("No ownCloud account is available");
+                Timber.i("No PiCloud account is available");
                 showDialog(DIALOG_NO_ACCOUNT);
             } else if (accounts.length > 1 && !mAccountSelected && !mAccountSelectionShowing) {
-                Timber.i("More than one ownCloud is available");
+                Timber.i("More than one PiCloud is available");
                 showDialog(DIALOG_MULTIPLE_ACCOUNT);
                 mAccountSelectionShowing = true;
             } else {

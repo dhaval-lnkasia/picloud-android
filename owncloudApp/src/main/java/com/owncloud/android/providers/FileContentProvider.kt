@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
@@ -75,7 +75,7 @@ import java.io.File
 import java.io.FileNotFoundException
 
 /**
- * The ContentProvider for the ownCloud App.
+ * The ContentProvider for the PiCloud App.
  */
 class FileContentProvider(val executors: Executors = Executors()) : ContentProvider() {
 
@@ -1263,7 +1263,7 @@ class FileContentProvider(val executors: Executors = Executors()) : ContentProvi
     }
 
     /**
-     * Version 10 of database does not modify its scheme. It coincides with the upgrade of the ownCloud account names
+     * Version 10 of database does not modify its scheme. It coincides with the upgrade of the PiCloud account names
      * structure to include in it the path to the server instance. Updating the account names and path to local files
      * in the files table is a must to keep the existing account working and the database clean.
      *

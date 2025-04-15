@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Fernando Sanz Velasco
  * Copyright (C) 2021 LNKASIA TECHSOL.

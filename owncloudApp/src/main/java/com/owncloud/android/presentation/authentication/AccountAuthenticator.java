@@ -1,5 +1,5 @@
 /*
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author Christian Schabesberger
@@ -58,9 +58,9 @@ import static com.owncloud.android.presentation.authentication.AuthenticatorCons
 import static org.koin.java.KoinJavaComponent.inject;
 
 /**
- * Authenticator for ownCloud accounts.
+ * Authenticator for PiCloud accounts.
  *
- * Controller class accessed from the system AccountManager, providing integration of ownCloud accounts with the
+ * Controller class accessed from the system AccountManager, providing integration of PiCloud accounts with the
  * Android system.
  */
 public class AccountAuthenticator extends AbstractAccountAuthenticator {

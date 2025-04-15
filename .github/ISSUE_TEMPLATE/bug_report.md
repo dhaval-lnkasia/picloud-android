@@ -19,7 +19,7 @@ assignees: ''
 3. 
 
 
-Can this problem be reproduced with the official owncloud server?
+Can this problem be reproduced with the official PiCloud server?
 (url: https://ocis.ocis.master.owncloud.works, user: einstein, password: relativity)
 
 
@@ -30,9 +30,9 @@ Device model:
 
 Stock or customized system:
 
-ownCloud app version:
+PiCloud app version:
 
-ownCloud server version:
+PiCloud server version:
 
 ### Logs
 #### Web server error log
@@ -40,7 +40,7 @@ ownCloud server version:
 Insert your webserver log here
 ```
 
-#### ownCloud log (data/owncloud.log)
+#### PiCloud log (data/owncloud.log)
 ```
-Insert your ownCloud log here
+Insert your PiCloud log here
 ```

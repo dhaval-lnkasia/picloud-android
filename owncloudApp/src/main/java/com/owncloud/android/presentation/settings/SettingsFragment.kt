@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Juan Carlos Garrote Gascón
  *
@@ -115,7 +115,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
             )
             setOnPreferenceClickListener {
                 val clipboard = requireActivity().getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                val clip = ClipData.newPlainText("ownCloud app version", summary)
+                val clip = ClipData.newPlainText("PiCloud app version", summary)
                 clipboard.setPrimaryClip(clip)
                 showMessageInSnackbar(getString(R.string.clipboard_text_copied))
                 true

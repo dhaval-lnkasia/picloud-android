@@ -1,4 +1,4 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   Copyright (C) 2022 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -52,7 +52,7 @@ public abstract class RemoteOperation<T> implements Runnable {
      */
     public static final String OCS_API_HEADER_VALUE = "true";
     /**
-     * ownCloud account in the remote ownCloud server to operate
+     * PiCloud account in the remote PiCloud server to operate
      */
     protected Account mAccount = null;
 
@@ -84,10 +84,10 @@ public abstract class RemoteOperation<T> implements Runnable {
     /**
      * Asynchronously executes the remote operation
      * <p>
-     * This method should be used whenever an ownCloud account is available,
+     * This method should be used whenever an PiCloud account is available,
      * instead of {@link #execute(OwnCloudClient, OnRemoteOperationListener, Handler))}.
      *
-     * @param account         ownCloud account in remote ownCloud server to reach during the
+     * @param account         PiCloud account in remote PiCloud server to reach during the
      *                        execution of the operation.
      * @param context         Android context for the component calling the method.
      * @param listener        Listener to be notified about the execution of the operation.
@@ -121,7 +121,7 @@ public abstract class RemoteOperation<T> implements Runnable {
     /**
      * Asynchronously executes the remote operation
      *
-     * @param client          Client object to reach an ownCloud server
+     * @param client          Client object to reach an PiCloud server
      *                        during the execution of the operation.
      * @param listener        Listener to be notified about the execution of the operation.
      * @param listenerHandler Handler, if passed in, associated to the thread where the methods of
@@ -182,14 +182,14 @@ public abstract class RemoteOperation<T> implements Runnable {
     protected abstract RemoteOperationResult<T> run(OwnCloudClient client);
 
     /**
-     * Synchronously executes the remote operation on the received ownCloud account.
+     * Synchronously executes the remote operation on the received PiCloud account.
      * <p>
      * Do not call this method from the main thread.
      * <p>
-     * This method should be used whenever an ownCloud account is available, instead of
+     * This method should be used whenever an PiCloud account is available, instead of
      * {@link #execute(OwnCloudClient)}.
      *
-     * @param account ownCloud account in remote ownCloud server to reach during the
+     * @param account PiCloud account in remote PiCloud server to reach during the
      *                execution of the operation.
      * @param context Android context for the component calling the method.
      * @return Result of the operation.
@@ -212,7 +212,7 @@ public abstract class RemoteOperation<T> implements Runnable {
      * <p>
      * Do not call this method from the main thread.
      *
-     * @param client Client object to reach an ownCloud server during the execution of
+     * @param client Client object to reach an PiCloud server during the execution of
      *               the operation.
      * @return Result of the operation.
      */
@@ -234,7 +234,7 @@ public abstract class RemoteOperation<T> implements Runnable {
      * <p>
      * Do not call this method from the main thread.
      *
-     * @param client Client object to reach an ownCloud server during the execution of
+     * @param client Client object to reach an PiCloud server during the execution of
      *               the operation.
      * @return Result of the operation.
      */

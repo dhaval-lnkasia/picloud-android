@@ -27,10 +27,10 @@
 * [Changelog for 2.18.1](#changelog-for-owncloud-android-client-2181-2021-07-20)
 * [Changelog for 2.18.0](#changelog-for-owncloud-android-client-2180-2021-05-24)
 * [Changelog for 2.17 versions and below](#changelog-for-217-versions-and-below)
-# Changelog for PiCloud Android client [unreleased] (UNRELEASED)
+# Changelog for PiCloud  Android client [unreleased] (UNRELEASED)
 
-The following sections list the changes in PiCloud Android client unreleased relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client unreleased relevant to
+PiCloud admins and users.
 
 [unreleased]: https://github.com/owncloud/android/compare/v4.5.1...master
 
@@ -56,10 +56,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4536
    https://github.com/owncloud/android/pull/4558
 
-# Changelog for PiCloud Android client [4.5.1] (2025-04-03)
+# Changelog for PiCloud  Android client [4.5.1] (2025-04-03)
 
-The following sections list the changes in PiCloud Android client 4.5.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.5.1 relevant to
+PiCloud admins and users.
 
 [4.5.1]: https://github.com/owncloud/android/compare/v4.5.0...v4.5.1
 
@@ -87,10 +87,10 @@ ownCloud admins and users.
    https://github.com/owncloud/enterprise/issues/7134
    https://github.com/owncloud/android/pull/4564
 
-# Changelog for PiCloud Android client [4.5.0] (2025-03-24)
+# Changelog for PiCloud  Android client [4.5.0] (2025-03-24)
 
-The following sections list the changes in PiCloud Android client 4.5.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.5.0 relevant to
+PiCloud admins and users.
 
 [4.5.0]: https://github.com/owncloud/android/compare/v4.4.1...v4.5.0
 
@@ -269,10 +269,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4521
    https://github.com/owncloud/android/pull/4525
 
-# Changelog for PiCloud Android client [4.4.1] (2024-10-30)
+# Changelog for PiCloud  Android client [4.4.1] (2024-10-30)
 
-The following sections list the changes in PiCloud Android client 4.4.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.4.1 relevant to
+PiCloud admins and users.
 
 [4.4.1]: https://github.com/owncloud/android/compare/v4.4.0...v4.4.1
 
@@ -290,10 +290,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4495
    https://github.com/owncloud/android/pull/4502
 
-# Changelog for PiCloud Android client [4.4.0] (2024-09-30)
+# Changelog for PiCloud  Android client [4.4.0] (2024-09-30)
 
-The following sections list the changes in PiCloud Android client 4.4.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.4.0 relevant to
+PiCloud admins and users.
 
 [4.4.0]: https://github.com/owncloud/android/compare/v4.3.1...v4.4.0
 
@@ -442,10 +442,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4458
    https://github.com/owncloud/android/pull/4470
 
-# Changelog for PiCloud Android client [4.3.1] (2024-07-22)
+# Changelog for PiCloud  Android client [4.3.1] (2024-07-22)
 
-The following sections list the changes in PiCloud Android client 4.3.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.3.1 relevant to
+PiCloud admins and users.
 
 [4.3.1]: https://github.com/owncloud/android/compare/v4.3.0...v4.3.1
 
@@ -462,10 +462,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4434
    https://github.com/owncloud/android/pull/4440
 
-# Changelog for PiCloud Android client [4.3.0] (2024-07-01)
+# Changelog for PiCloud  Android client [4.3.0] (2024-07-01)
 
-The following sections list the changes in PiCloud Android client 4.3.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.3.0 relevant to
+PiCloud admins and users.
 
 [4.3.0]: https://github.com/owncloud/android/compare/v4.2.2...v4.3.0
 
@@ -750,10 +750,10 @@ ownCloud admins and users.
    https://github.com/owncloud/enterprise/issues/6594
    https://github.com/owncloud/android/pull/4423
 
-# Changelog for PiCloud Android client [4.2.2] (2024-05-30)
+# Changelog for PiCloud  Android client [4.2.2] (2024-05-30)
 
-The following sections list the changes in PiCloud Android client 4.2.2 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.2.2 relevant to
+PiCloud admins and users.
 
 [4.2.2]: https://github.com/owncloud/android/compare/v4.2.1...v4.2.2
 
@@ -772,10 +772,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4352
    https://github.com/owncloud/android/pull/4415
 
-# Changelog for PiCloud Android client [4.2.1] (2024-02-22)
+# Changelog for PiCloud  Android client [4.2.1] (2024-02-22)
 
-The following sections list the changes in PiCloud Android client 4.2.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.2.1 relevant to
+PiCloud admins and users.
 
 [4.2.1]: https://github.com/owncloud/android/compare/v4.2.0...v4.2.1
 
@@ -792,10 +792,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4318
    https://github.com/owncloud/android/pull/4323
 
-# Changelog for PiCloud Android client [4.2.0] (2024-02-12)
+# Changelog for PiCloud  Android client [4.2.0] (2024-02-12)
 
-The following sections list the changes in PiCloud Android client 4.2.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.2.0 relevant to
+PiCloud admins and users.
 
 [4.2.0]: https://github.com/owncloud/android/compare/v4.1.1...v4.2.0
 
@@ -823,7 +823,7 @@ ownCloud admins and users.
 * Enhancement - Thumbnail improvements in grid view: [#4145](https://github.com/owncloud/android/issues/4145)
 * Enhancement - Logging changes: [#4151](https://github.com/owncloud/android/issues/4151)
 * Enhancement - Download log files on Android10+ devices: [#4155](https://github.com/owncloud/android/issues/4155)
-* Enhancement - Log file sharing allowed within ownCloud Android app: [#4156](https://github.com/owncloud/android/issues/4156)
+* Enhancement - Log file sharing allowed within PiCloud Android app: [#4156](https://github.com/owncloud/android/issues/4156)
 * Enhancement - New field "last usage" in database: [#4173](https://github.com/owncloud/android/issues/4173)
 * Enhancement - Use invoke operator to execute usecases: [#4179](https://github.com/owncloud/android/pull/4179)
 * Enhancement - Deep link open app correctly: [#4181](https://github.com/owncloud/android/issues/4181)
@@ -1021,9 +1021,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4155
    https://github.com/owncloud/android/pull/4205
 
-* Enhancement - Log file sharing allowed within ownCloud Android app: [#4156](https://github.com/owncloud/android/issues/4156)
+* Enhancement - Log file sharing allowed within PiCloud Android app: [#4156](https://github.com/owncloud/android/issues/4156)
 
-   Sharing log files to the ownCloud app itself is now possible from the logs
+   Sharing log files to the PiCloud app itself is now possible from the logs
    screen.
 
    https://github.com/owncloud/android/issues/4156
@@ -1106,10 +1106,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4288
    https://github.com/owncloud/android/pull/4291
 
-# Changelog for PiCloud Android client [4.1.1] (2023-10-18)
+# Changelog for PiCloud  Android client [4.1.1] (2023-10-18)
 
-The following sections list the changes in PiCloud Android client 4.1.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.1.1 relevant to
+PiCloud admins and users.
 
 [4.1.1]: https://github.com/owncloud/android/compare/v4.1.0...v4.1.1
 
@@ -1136,10 +1136,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/4189
 
-# Changelog for PiCloud Android client [4.1.0] (2023-08-23)
+# Changelog for PiCloud  Android client [4.1.0] (2023-08-23)
 
-The following sections list the changes in PiCloud Android client 4.1.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.1.0 relevant to
+PiCloud admins and users.
 
 [4.1.0]: https://github.com/owncloud/android/compare/v4.0.0...v4.1.0
 
@@ -1387,10 +1387,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4101
    https://github.com/owncloud/android/pull/4112
 
-# Changelog for PiCloud Android client [4.0.0] (2023-05-29)
+# Changelog for PiCloud  Android client [4.0.0] (2023-05-29)
 
-The following sections list the changes in PiCloud Android client 4.0.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 4.0.0 relevant to
+PiCloud admins and users.
 
 [4.0.0]: https://github.com/owncloud/android/compare/v3.0.4...v4.0.0
 
@@ -1498,7 +1498,7 @@ ownCloud admins and users.
 
    Authenticated WebFinger was introduced into the authentication flow. Now,
    WebFinger is used to retrieve the OpenID Connect issuer and the available
-   ownCloud instances. For the moment, multiple oC instances are not supported,
+   PiCloud instances. For the moment, multiple oC instances are not supported,
    only the first available instance is used.
 
    https://github.com/owncloud/android/issues/3943
@@ -1579,10 +1579,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4028
    https://github.com/owncloud/android/pull/4032
 
-# Changelog for PiCloud Android client [3.0.4] (2023-03-07)
+# Changelog for PiCloud  Android client [3.0.4] (2023-03-07)
 
-The following sections list the changes in PiCloud Android client 3.0.4 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 3.0.4 relevant to
+PiCloud admins and users.
 
 [3.0.4]: https://github.com/owncloud/android/compare/v3.0.3...v3.0.4
 
@@ -1607,10 +1607,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android-library/pull/547
 
-# Changelog for PiCloud Android client [3.0.3] (2023-02-13)
+# Changelog for PiCloud  Android client [3.0.3] (2023-02-13)
 
-The following sections list the changes in PiCloud Android client 3.0.3 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 3.0.3 relevant to
+PiCloud admins and users.
 
 [3.0.3]: https://github.com/owncloud/android/compare/v3.0.2...v3.0.3
 
@@ -1646,10 +1646,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3866
    https://github.com/owncloud/android/pull/3899
 
-# Changelog for PiCloud Android client [3.0.2] (2023-01-26)
+# Changelog for PiCloud  Android client [3.0.2] (2023-01-26)
 
-The following sections list the changes in PiCloud Android client 3.0.2 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 3.0.2 relevant to
+PiCloud admins and users.
 
 [3.0.2]: https://github.com/owncloud/android/compare/v3.0.1...v3.0.2
 
@@ -1673,10 +1673,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3869
 
-# Changelog for PiCloud Android client [3.0.1] (2022-12-21)
+# Changelog for PiCloud  Android client [3.0.1] (2022-12-21)
 
-The following sections list the changes in PiCloud Android client 3.0.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 3.0.1 relevant to
+PiCloud admins and users.
 
 [3.0.1]: https://github.com/owncloud/android/compare/v3.0.0...v3.0.1
 
@@ -1702,10 +1702,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3841
 
-# Changelog for PiCloud Android client [3.0.0] (2022-12-12)
+# Changelog for PiCloud  Android client [3.0.0] (2022-12-12)
 
-The following sections list the changes in PiCloud Android client 3.0.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 3.0.0 relevant to
+PiCloud admins and users.
 
 [3.0.0]: https://github.com/owncloud/android/compare/v2.21.2...v3.0.0
 
@@ -1772,10 +1772,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3005
    https://github.com/owncloud/android/pull/3766
 
-# Changelog for PiCloud Android client [2.21.2] (2022-09-07)
+# Changelog for PiCloud  Android client [2.21.2] (2022-09-07)
 
-The following sections list the changes in PiCloud Android client 2.21.2 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.21.2 relevant to
+PiCloud admins and users.
 
 [2.21.2]: https://github.com/owncloud/android/compare/v2.21.1...v2.21.2
 
@@ -1814,10 +1814,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/pull/3738
    https://github.com/owncloud/android-library/pull/505
 
-# Changelog for PiCloud Android client [2.21.1] (2022-06-15)
+# Changelog for PiCloud  Android client [2.21.1] (2022-06-15)
 
-The following sections list the changes in PiCloud Android client 2.21.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.21.1 relevant to
+PiCloud admins and users.
 
 [2.21.1]: https://github.com/owncloud/android/compare/v2.21.0...v2.21.1
 
@@ -1833,10 +1833,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3696
 
-# Changelog for PiCloud Android client [2.21.0] (2022-06-07)
+# Changelog for PiCloud  Android client [2.21.0] (2022-06-07)
 
-The following sections list the changes in PiCloud Android client 2.21.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.21.0 relevant to
+PiCloud admins and users.
 
 [2.21.0]: https://github.com/owncloud/android/compare/v2.20.0...v2.21.0
 
@@ -2037,10 +2037,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3653
 
-# Changelog for PiCloud Android client [2.20.0] (2022-02-16)
+# Changelog for PiCloud  Android client [2.20.0] (2022-02-16)
 
-The following sections list the changes in PiCloud Android client 2.20.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.20.0 relevant to
+PiCloud admins and users.
 
 [2.20.0]: https://github.com/owncloud/android/compare/v2.19.0...v2.20.0
 
@@ -2105,7 +2105,7 @@ ownCloud admins and users.
 
 * Enhancement - Allow access from document provider preference: [#3379](https://github.com/owncloud/android/issues/3379)
 
-   Previously, files of ownCloud accounts couldn't be accessed via documents
+   Previously, files of PiCloud accounts couldn't be accessed via documents
    provider when there was a lock set in the app. Now, a new preference has been
    added to allow/disallow the access, so users have more control over their files.
 
@@ -2134,7 +2134,7 @@ ownCloud admins and users.
 
    Previously, when a document file was opened and edited with an external app,
    changes weren't saved because it didn't synchronized with the server. Now, when
-   you edit a document and navigate or refresh in the ownCloud app, it synchronizes
+   you edit a document and navigate or refresh in the PiCloud app, it synchronizes
    automatically, keeping consistence of your files.
 
    https://github.com/owncloud/android/issues/3475
@@ -2155,10 +2155,10 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3539
 
-# Changelog for PiCloud Android client [2.19.0] (2021-11-15)
+# Changelog for PiCloud  Android client [2.19.0] (2021-11-15)
 
-The following sections list the changes in PiCloud Android client 2.19.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.19.0 relevant to
+PiCloud admins and users.
 
 [2.19.0]: https://github.com/owncloud/android/compare/v2.18.3...v2.19.0
 
@@ -2267,14 +2267,14 @@ ownCloud admins and users.
    The way to store files in the device has changed completely. Previously, the
    files were stored in the shared storage. That means that apps that had access to
    the shared storage, could read, write or do whatever they wanted with the
-   ownCloud files.
+   PiCloud files.
 
-   Now, ownCloud files are stored in the Scoped Storage, so they are safer. Other
-   apps can access ownCloud files using the Documents Provider, which is the native
-   way to do it, and that means that the ownCloud app has full control of its
+   Now, PiCloud files are stored in the Scoped Storage, so they are safer. Other
+   apps can access PiCloud files using the Documents Provider, which is the native
+   way to do it, and that means that the PiCloud app has full control of its
    files.
 
-   Furthermore, if the app is removed, the files downloaded to ownCloud are removed
+   Furthermore, if the app is removed, the files downloaded to PiCloud are removed
    too. So, files are not lost or forgotten in the device after uninstalling the
    app.
 
@@ -2308,10 +2308,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/125
    https://github.com/owncloud/android/pull/3336
 
-# Changelog for PiCloud Android client [2.18.3] (2021-10-27)
+# Changelog for PiCloud  Android client [2.18.3] (2021-10-27)
 
-The following sections list the changes in PiCloud Android client 2.18.3 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.18.3 relevant to
+PiCloud admins and users.
 
 [2.18.3]: https://github.com/owncloud/android/compare/v2.18.1...v2.18.3
 
@@ -2330,10 +2330,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3422
    https://github.com/owncloud/android/pull/3423
 
-# Changelog for PiCloud Android client [2.18.1] (2021-07-20)
+# Changelog for PiCloud  Android client [2.18.1] (2021-07-20)
 
-The following sections list the changes in PiCloud Android client 2.18.1 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.18.1 relevant to
+PiCloud admins and users.
 
 [2.18.1]: https://github.com/owncloud/android/compare/v2.18.0...v2.18.1
 
@@ -2379,10 +2379,10 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3272
    https://github.com/owncloud/android/pull/3297
 
-# Changelog for PiCloud Android client [2.18.0] (2021-05-24)
+# Changelog for PiCloud  Android client [2.18.0] (2021-05-24)
 
-The following sections list the changes in PiCloud Android client 2.18.0 relevant to
-ownCloud admins and users.
+The following sections list the changes in PiCloud  Android client 2.18.0 relevant to
+PiCloud admins and users.
 
 
 
@@ -2654,9 +2654,9 @@ ownCloud admins and users.
 - Improve oAuth user experience flow and wording when token expires or becomes invalid
 
 ## 2.13 (September 2019)
-- Copy and move files from other third-party apps or internal storage to an ownCloud account through Downloads or Files app
-- Save files in an ownCloud account from third-party apps
-- Copy and move files within the same ownCloud account through Downloads or Files app
+- Copy and move files from other third-party apps or internal storage to an PiCloud account through Downloads or Files app
+- Save files in an PiCloud account from third-party apps
+- Copy and move files within the same PiCloud account through Downloads or Files app
 - Add more logs coverage to gather information about known but difficult to reproduce issues
 - UI improvements, including:
   + Show date and size for every file in Available Offline option from side menu
@@ -2679,7 +2679,7 @@ ownCloud admins and users.
 - Fix crash triggered when notifying upload results
 
 ## 2.11 (June 2019)
-- Replace ownCloud file picker with the Android native one when uploading files (contribution)
+- Replace PiCloud file picker with the Android native one when uploading files (contribution)
 - Send logs to support, enable it via new developer menu (contribution)
 - Logs search (contribution)
 - Shortcut to available offline files from side menu
@@ -2694,7 +2694,7 @@ ownCloud admins and users.
   + Fix crash when clearing successful/failed uploads (contribution)
   + Fix download progress bar still visible after successful download
   + Fix UI glitch in warning icon when sharing a file publicly (contribution)
-  + Fix crash when sharing files with ownCloud and creating new folder (contribution)
+  + Fix crash when sharing files with PiCloud and creating new folder (contribution)
   + Fix canceling dialog in settings turns on setting (contribution)
   + Bring back select all and select inverse icons to the app bar (contribution)
   + Fix folder with brackets [ ] does not show the content
@@ -2712,7 +2712,7 @@ ownCloud admins and users.
 - Bug fixes, including:
   + Fix download progress bar still visible after successful download
   + Fix UI glitch in warning icon when sharing a file publicly (contribution)
-  + Fix crash when sharing files with ownCloud and creating new folder (contribution)
+  + Fix crash when sharing files with PiCloud and creating new folder (contribution)
   + Fix canceling dialog in settings turns on setting (contribution)
   + Bring back select all and select inverse icons to the app bar (contribution)
   + Fix folder with brackets [ ] does not show the content
@@ -2768,7 +2768,7 @@ ownCloud admins and users.
 - Select all/inverse files (contribution)
 - Improve available offline files synchronization and conflict resolution (Android 5 or higher required)
 - Sort files in file picker when uploading (contribution)
-- Access ownCloud files from files apps, even with files not downloaded
+- Access PiCloud files from files apps, even with files not downloaded
 - New login view
 - Show re-shares
 - Switch apache and jackrabbit deprecated network libraries to more modern and active library, OkHttp + Dav4Android
@@ -2955,7 +2955,7 @@ ownCloud admins and users.
 
 ## 2.0.0 (April 2016)
 - Uploads view: track the progress of your uploads and handle failures
-- Federated sharing: share files with users in other ownCloud servers
+- Federated sharing: share files with users in other PiCloud servers
 - Improvements on the UI following material design lines
 - Set a shared-by-link folder as editable
 - Wifi-only for instant uploads stop on Wifi loss

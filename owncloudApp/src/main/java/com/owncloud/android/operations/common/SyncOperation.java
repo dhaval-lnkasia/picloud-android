@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author Christian Schabesberger
@@ -30,7 +30,7 @@ import com.owncloud.android.lib.common.operations.RemoteOperation;
 import com.owncloud.android.lib.common.operations.RemoteOperationResult;
 
 /**
- * Operation which execution involves both interactions with an ownCloud server and
+ * Operation which execution involves both interactions with an PiCloud server and
  * with local data in the device.
  *
  * Provides methods to execute the operation both synchronously or asynchronously.
@@ -44,11 +44,11 @@ public abstract class SyncOperation<T> extends RemoteOperation<T> {
     }
 
     /**
-     * Synchronously executes the operation on the received ownCloud account.
+     * Synchronously executes the operation on the received PiCloud account.
      *
      * Do not call this method from the main thread.
      *
-     * This method should be used whenever an ownCloud account is available, instead of
+     * This method should be used whenever an PiCloud account is available, instead of
      * {@link #execute(OwnCloudClient, com.owncloud.android.datamodel.FileDataStorageManager)}.
      *
      * @param storageManager
@@ -73,7 +73,7 @@ public abstract class SyncOperation<T> extends RemoteOperation<T> {
      *
      * Do not call this method from the main thread.
      *
-     * @param client            Client object to reach an ownCloud server during the execution of the operation.
+     * @param client            Client object to reach an PiCloud server during the execution of the operation.
      * @param storageManager    Instance of local repository to sync with remote.
      * @return Result of the operation.
      */
@@ -90,7 +90,7 @@ public abstract class SyncOperation<T> extends RemoteOperation<T> {
     /**
      * Asynchronously executes the remote operation
      *
-     * This method should be used whenever an ownCloud account is available,
+     * This method should be used whenever an PiCloud account is available,
      * instead of {@link #execute(OwnCloudClient, OnRemoteOperationListener, Handler))}.
      *
      * @param storageManager    Instance of local repository to sync with remote.
@@ -117,7 +117,7 @@ public abstract class SyncOperation<T> extends RemoteOperation<T> {
     /**
      * Asynchronously executes the remote operation
      *
-     * @param client            Client object to reach an ownCloud server during the
+     * @param client            Client object to reach an PiCloud server during the
      *                          execution of the operation.
      * @param storageManager    Instance of local repository to sync with remote.
      * @param listener          Listener to be notified about the execution of the operation.

@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
@@ -158,7 +158,7 @@ class PreviewImageFragment : FileFragment() {
         }
 
         account = requireArguments().getParcelable(PreviewAudioFragment.EXTRA_ACCOUNT)
-        checkNotNull(account) { "Instanced with a NULL ownCloud Account" }
+        checkNotNull(account) { "Instanced with a NULL PiCloud Account" }
         checkNotNull(file) { "Instanced with a NULL OCFile" }
         check(file.isAvailableLocally) { "There is no local file to preview" }
 
@@ -372,7 +372,7 @@ class PreviewImageFragment : FileFragment() {
          * This method hides to client objects the need of doing the construction in two steps.
          *
          * @param file                  An [OCFile] to preview as an image in the fragment
-         * @param myAccount             ownCloud account containing file
+         * @param myAccount             PiCloud account containing file
          * @param ignoreFirstSavedState Flag to work around an unexpected behaviour of [androidx.fragment.app.FragmentStatePagerAdapter]
          * @return Fragment ready to be used.
          */

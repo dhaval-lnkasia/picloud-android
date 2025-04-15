@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Fernando Sanz Velasco
  * @author Jose Antonio Barros Ramos

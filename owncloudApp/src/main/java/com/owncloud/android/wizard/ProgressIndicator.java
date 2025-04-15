@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartosz Przybylski
  * Copyright (C) 2020 Bartosz Przybylski

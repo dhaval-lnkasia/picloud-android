@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author masensio
  * @author David A. Velasco
@@ -460,7 +460,7 @@ class EditPrivateShareFragment : DialogFragment() {
          *
          * @param shareToEdit   An [OCShare] to show and edit in the fragment
          * @param sharedFile    The [OCFile] bound to 'shareToEdit'
-         * @param account       The ownCloud account holding 'sharedFile'
+         * @param account       The PiCloud account holding 'sharedFile'
          * @return A new instance of fragment EditPrivateShareFragment.
          */
         fun newInstance(shareToEdit: OCShare, sharedFile: OCFile, account: Account): EditPrivateShareFragment {

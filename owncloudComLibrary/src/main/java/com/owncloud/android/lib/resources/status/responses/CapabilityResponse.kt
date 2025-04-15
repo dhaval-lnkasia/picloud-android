@@ -1,5 +1,5 @@
 /**
- * ownCloud Android Library is available under MIT license
+ * PiCloud Android Library is available under MIT license
  *
  * @author Abel García de Prada
  * @author Juan Carlos Garrote Gascón

@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author José Carlos Montes Martos
  * Copyright (C) 2020 LNKASIA TECHSOL.

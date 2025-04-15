@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Christian Schabesberger
  * @author Shashvat Kedia
@@ -68,7 +68,7 @@ public class FilesUploadHelper implements Parcelable {
 
     /**
      * Asynchronous task checking if there is space enough to copy all the files chosen
-     * to upload into the ownCloud local folder.
+     * to upload into the PiCloud local folder.
      * <p>
      * Maybe an AsyncTask is not strictly necessary, but who really knows.
      */

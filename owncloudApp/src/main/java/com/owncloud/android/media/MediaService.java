@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author Christian Schabesberger
@@ -230,7 +230,7 @@ public class MediaService extends Service implements OnCompletionListener, OnPre
     @Override
     public void onCreate() {
         super.onCreate();
-        Timber.d("Creating ownCloud media service");
+        Timber.d("Creating PiCloud media service");
 
         mWifiLock = ((WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE)).
                 createWifiLock(WifiManager.WIFI_MODE_FULL, MEDIA_WIFI_LOCK_TAG);

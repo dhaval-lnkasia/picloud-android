@@ -1,5 +1,5 @@
 /*
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo

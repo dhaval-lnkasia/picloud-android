@@ -1,5 +1,5 @@
 /*
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Jesus Recio (@jesmrec)
  * @author Juan Carlos Garrote Gascón (@JuancaG05)

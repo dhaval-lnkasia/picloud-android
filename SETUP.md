@@ -1,6 +1,6 @@
 ### Setup Information
 
-These instructions will help you to set up your development environment, get the source code of the ownCloud for Android app and build it by yourself. If you want to help developing the app take a look to the [contribution guidelines][0].
+These instructions will help you to set up your development environment, get the source code of the PiCloud for Android app and build it by yourself. If you want to help developing the app take a look to the [contribution guidelines][0].
 
 Sections 1) and 2) are common for any environment. The rest of the sections describe how to set up a project in different tool environments. Nowadays we recommend to use Android Studio (section 2), but you can also build the app from the command line (section 3).
 
@@ -15,11 +15,11 @@ There are some tools needed, no matter what is your specific IDE or build tool o
 
 The [Android SDK][3] is necessary to build the app. There are different options to install it in your system, depending of the IDE you decide to use. Check Google documentation about [installation][4] for more details on these options. After installing it, add the full path to the directories 'tools/' and 'platform-tools/' from your Android SDK installation into the PATH variable of your environment.
 
-Open a terminal and type 'android' to start the Android SDK Manager. To build the ownCloud for Android app you will need to install at least the next SDK packages:
+Open a terminal and type 'android' to start the Android SDK Manager. To build the PiCloud for Android app you will need to install at least the next SDK packages:
 
 * Android SDK Tools and Android SDK Platform-tools (already installed); upgrade to their last versions is usually a good idea.
 * No longer need to specify a version for the build tools, Gradle plugin uses the minimum required version by default.
-* Android 12.0 (API 31), SDK Platform; needed to build the owncloud app.
+* Android 12.0 (API 31), SDK Platform; needed to build the PiCloud app.
 
 Install any other package you consider interesting, such as emulators.
 
@@ -37,7 +37,7 @@ Next steps will assume you have a Github account and that you will get the code 
 * Clone your forked repository: ```git clone https://github.com/YOURGITHUBNAME/android.git```.
 * Move to the project folder with ```cd android```.
 * Fetch and apply any changes from your remote branch 'master': ```git fetch``` + ```git rebase```
-* Make official ownCloud repo known as upstream: ```git remote add upstream https://github.com/owncloud/android.git```
+* Make official PiCloud repo known as upstream: ```git remote add upstream https://github.com/owncloud/android.git```
 * Make sure to get and apply the latest changes from official android/master branch: ```git fetch upstream``` + ```git rebase upstream/master```
 
 At this point you can continue using different tools to build the project. Section 2 and 3 describe the existing alternatives.

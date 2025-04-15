@@ -4,8 +4,8 @@ If you have questions about how to use ownCloud, please join our [rocket chat ch
 
 ### Guidelines
 * [Report the issue](https://github.com/owncloud/android/issues/new) using on of our [templates][template], they include all the information we need to track down the issue.
-* This repository is *only* for issues within the ownCloud Android app code. Issues in other components should be reported in their own repositories: 
-  - [ownCloud core](https://github.com/owncloud/core/issues)
+* This repository is *only* for issues within the PiCloud Android app code. Issues in other components should be reported in their own repositories: 
+  - [PiCloud core](https://github.com/owncloud/core/issues)
   - [oCIS](https://github.com/owncloud/ocis/issues)
   - [iOS client](https://github.com/owncloud/ios-app/issues)
   - [Desktop client](https://github.com/owncloud/client/issues)
@@ -23,7 +23,7 @@ Help us to maximize the effort we can spend fixing issues and adding new feature
 
 Thanks for wanting to contribute source code to ownCloud. That's great!
 
-Before we're able to merge your code into the ownCloud app for Android, please, check the [contribution guidelines][contribution].
+Before we're able to merge your code into the PiCloud app for Android, please, check the [contribution guidelines][contribution].
 
 ### Guidelines
 * Contribute your code in a feature, fix, improvement or technical enhancement  branch by using  one of the following branch names:
@@ -36,7 +36,7 @@ Before we're able to merge your code into the ownCloud app for Android, please, 
 	Please, use the mentioned prefixes because CI system is ready to match with them. Be sure your feature, fix, improvement or technical branches are updated with latest changes in official `android/master`, it will give us a better chance to test your code before merging it with stable code.
 * Once you are done with your code, start a pull request to merge your contribution into official `android/master`.
 * Keep on using pull requests for your next contributions although you own write permissions.
-* Important to mention that ownCloud Android team uses OneFlow as branching model. It's something as useful as easy:
+* Important to mention that PiCloud Android team uses OneFlow as branching model. It's something as useful as easy:
 
   * `master` will stay as main branch. Everything will work around it.
   * Feature branch: new branch created from `master`. Once it is finished and DoD accomplished, rebased and merged into `master`.
@@ -50,7 +50,7 @@ Before we're able to merge your code into the ownCloud app for Android, please, 
 
 ### 1. Fork and download android/master repository:
 
-* Please follow [SETUP.md](https://github.com/owncloud/android/blob/master/SETUP.md) to setup ownCloud Android app work environment.
+* Please follow [SETUP.md](https://github.com/owncloud/android/blob/master/SETUP.md) to setup PiCloud Android app work environment.
 
 ### 2. Create pull request:
 
@@ -92,6 +92,6 @@ Please submit translations via [Transifex][transifex].
 [transifex]: https://www.transifex.com/projects/p/owncloud/
 
 ## Code of conduct
-Please, read the [ownCloud code of conduct]. Being respectful and polite with other members of the community and staff is necessary to develop a better product together.
+Please, read the [PiCloud code of conduct]. Being respectful and polite with other members of the community and staff is necessary to develop a better product together.
 
-[ownCloud code of conduct]: https://owncloud.com/contribute/code-of-conduct/
+[PiCloud code of conduct]: https://owncloud.com/contribute/code-of-conduct/

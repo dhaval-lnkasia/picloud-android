@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Abel García de Prada
  * @author Juan Carlos Garrote Gascón
@@ -629,7 +629,7 @@ class FileDetailsFragment : FileFragment() {
          *
          *
          * @param fileToDetail An [OCFile] to show in the fragment
-         * @param account      An ownCloud account; needed to start downloads
+         * @param account      An PiCloud account; needed to start downloads
          * @return New fragment with arguments set
          */
         fun newInstance(fileToDetail: OCFile, account: Account, syncFileAtOpen: Boolean = true): FileDetailsFragment =

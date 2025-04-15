@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
@@ -60,7 +60,7 @@ import com.owncloud.android.ui.helpers.FileOperationsHelper;
 import timber.log.Timber;
 
 /**
- * Activity with common behaviour for activities handling {@link OCFile}s in ownCloud {@link Account}s .
+ * Activity with common behaviour for activities handling {@link OCFile}s in PiCloud {@link Account}s .
  */
 public class FileActivity extends DrawerActivity
         implements OnRemoteOperationListener, ComponentsGetter, SslUntrustedCertDialog.OnSslUntrustedCertListener {
@@ -108,10 +108,10 @@ public class FileActivity extends DrawerActivity
     private boolean mResumed = false;
 
     /**
-     * Loads the ownCloud {@link Account} and main {@link OCFile} to be handled by the instance of
+     * Loads the PiCloud {@link Account} and main {@link OCFile} to be handled by the instance of
      * the {@link FileActivity}.
      * <p>
-     * Grants that a valid ownCloud {@link Account} is associated to the instance, or that the user
+     * Grants that a valid PiCloud {@link Account} is associated to the instance, or that the user
      * is requested to create a new one.
      */
     @Override

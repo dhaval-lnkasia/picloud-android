@@ -1,5 +1,5 @@
 /*
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author LukeOwncloud
  * @author David A. Velasco
@@ -163,7 +163,7 @@ public class UploadListActivity extends FileActivity {
     }
 
     /**
-     * Called when the ownCloud {@link Account} associated to the Activity was just updated.
+     * Called when the PiCloud {@link Account} associated to the Activity was just updated.
      */
     @Override
     protected void onAccountSet(boolean stateWasRecovered) {

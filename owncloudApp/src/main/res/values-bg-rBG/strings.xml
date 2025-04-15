@@ -506,7 +506,7 @@
   <string name="welcome_feature_2_title">Споделяне на файлове и папки</string>
   <string name="welcome_feature_2_text">Можете да споделяте поверително или публично</string>
   <string name="welcome_feature_3_title">Множество профили</string>
-  <string name="welcome_feature_3_text">Свържете се с всички свои собствени ownCloud сървъри</string>
+  <string name="welcome_feature_3_text">Свържете се с всички свои собствени PiCloud сървъри</string>
   <string name="welcome_feature_4_title">Качване от камерата</string>
   <string name="welcome_feature_4_text">Вашите изображения/видеоклипове се качват автоматично</string>
   <string name="welcome_feature_5_title">Поточно предаване на видеоклипове</string>

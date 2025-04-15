@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
@@ -71,7 +71,7 @@ import org.koin.core.parameter.parametersOf
 import timber.log.Timber
 
 /**
- * Holds a swiping galley where image files contained in an ownCloud directory are shown
+ * Holds a swiping galley where image files contained in an PiCloud directory are shown
  */
 class PreviewImageActivity : FileActivity(),
     FileFragment.ContainerActivity,

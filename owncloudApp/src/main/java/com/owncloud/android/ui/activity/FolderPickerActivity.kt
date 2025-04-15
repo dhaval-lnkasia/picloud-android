@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Shashvat Kedia
  * @author David González Verdugo
@@ -132,7 +132,7 @@ open class FolderPickerActivity : FileActivity(),
     }
 
     /**
-     * Called when the ownCloud {@link Account} associated to the Activity was just updated.
+     * Called when the PiCloud {@link Account} associated to the Activity was just updated.
      */
     override fun onAccountSet(stateWasRecovered: Boolean) {
         super.onAccountSet(stateWasRecovered)

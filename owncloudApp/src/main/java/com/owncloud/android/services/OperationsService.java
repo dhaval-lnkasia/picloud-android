@@ -1,5 +1,5 @@
 /*
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
@@ -269,7 +269,7 @@ public class OperationsService extends Service {
                 RemoteOperation currentOperation = next.second;
                 RemoteOperationResult result;
                 try {
-                    /// prepare client object to send the request to the ownCloud server
+                    /// prepare client object to send the request to the PiCloud server
                     if (mLastTarget == null || !mLastTarget.equals(next.first)) {
                         mLastTarget = next.first;
                         OwnCloudAccount ocAccount;

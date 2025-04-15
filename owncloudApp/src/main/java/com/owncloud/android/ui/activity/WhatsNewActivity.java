@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Brtosz Przybylski
  * @author Christian Schabesberger

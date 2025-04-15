@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author masensio
  * @author David A. Velasco
@@ -582,7 +582,7 @@ class ShareFileFragment : Fragment(), ShareUserListAdapter.ShareUserAdapterListe
          * Public factory method to create new ShareFileFragment instances.
          *
          * @param fileToShare An [OCFile] to show in the fragment
-         * @param account     An ownCloud account
+         * @param account     An PiCloud account
          * @return A new instance of fragment ShareFileFragment.
          */
         fun newInstance(

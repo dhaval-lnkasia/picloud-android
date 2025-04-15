@@ -1,7 +1,7 @@
 package com.owncloud.android.ui.preview;
 
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author David González Verdugo
  * @author Christian Schabesberger

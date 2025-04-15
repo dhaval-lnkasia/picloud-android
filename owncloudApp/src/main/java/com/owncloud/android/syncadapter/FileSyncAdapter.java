@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
@@ -59,7 +59,7 @@ import static org.koin.java.KoinJavaComponent.inject;
 
 /**
  * Implementation of {@link AbstractThreadedSyncAdapter} responsible for synchronizing
- * ownCloud files.
+ * PiCloud files.
  * <p>
  * Performs a full synchronization of the account received in {@link #onPerformSync(Account, Bundle,
  * String, ContentProviderClient, SyncResult)}.
@@ -146,7 +146,7 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
             return;
         }
 
-        Timber.d("Synchronization of ownCloud account " + account.name + " starting");
+        Timber.d("Synchronization of PiCloud account " + account.name + " starting");
         sendLocalBroadcast(EVENT_FULL_SYNC_START, null, null);  // message to signal the start
         // of the synchronization to the UI
         try {
@@ -200,7 +200,7 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
     }
 
     /**
-     * Updates the local copy of capabilities information of the ownCloud server
+     * Updates the local copy of capabilities information of the PiCloud server
      */
     private void updateCapabilities() {
         @NotNull Lazy<RefreshCapabilitiesFromServerAsyncUseCase> refreshCapabilitiesFromServerAsyncUseCase =

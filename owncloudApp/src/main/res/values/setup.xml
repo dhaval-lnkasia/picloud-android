@@ -92,7 +92,7 @@
     <string name="oauth2_openid_scope">openid offline_access email profile</string>
     <string name="oauth2_openid_prompt">select_account consent</string>
 
-    <!-- values that should be provided by ownCloud server -->
+    <!-- values that should be provided by PiCloud server -->
 
     <!-- AUTHORIZATION ENDPOINT -->
     <string name="oauth2_url_endpoint_auth">index.php/apps/oauth2/authorize</string>

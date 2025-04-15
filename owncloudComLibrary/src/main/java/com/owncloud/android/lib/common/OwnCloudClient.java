@@ -1,4 +1,4 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   Copyright (C) 2020 LNKASIA TECHSOL.
  *   Copyright (C) 2012  Bartek Przybylski
  *
@@ -125,7 +125,7 @@ public class OwnCloudClient extends HttpClient {
             retry = false;
             String requestId = RandomUtils.generateRandomUUID();
 
-            // Header to allow tracing requests in apache and ownCloud logs
+            // Header to allow tracing requests in apache and PiCloud logs
             Timber.d("Executing in request with id %s", requestId);
             method.setRequestHeader(HttpConstants.OC_X_REQUEST_ID, requestId);
             method.setRequestHeader(HttpConstants.USER_AGENT_HEADER, SingleSessionManager.getUserAgent());
@@ -204,7 +204,7 @@ public class OwnCloudClient extends HttpClient {
     }
 
     /**
-     * Sets the root URI to the ownCloud server.
+     * Sets the root URI to the PiCloud server.
      * <p>
      * Use with care.
      *

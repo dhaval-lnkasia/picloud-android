@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author sassman
  * @author David A. Velasco
@@ -38,7 +38,7 @@ import com.owncloud.android.lib.common.accounts.AccountUtils.AccountNotFoundExce
 import java.io.IOException;
 
 /**
- * Base synchronization adapter for ownCloud to discover full account.
+ * Base synchronization adapter for PiCloud to discover full account.
  * <p>
  * Implements the standard {@link AbstractThreadedSyncAdapter}.
  */

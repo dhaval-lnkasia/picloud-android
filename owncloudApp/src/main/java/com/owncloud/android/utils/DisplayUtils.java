@@ -1,5 +1,5 @@
 /*
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
@@ -236,7 +236,7 @@ public class DisplayUtils {
     }
 
     /**
-     * set the owncloud standard colors for the snackbar.
+     * set the PiCloud standard colors for the snackbar.
      *
      * @param context  the context relevant for setting the color according to the context's theme
      * @param snackbar the snackbar to be colored

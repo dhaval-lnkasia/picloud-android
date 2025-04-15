@@ -1,4 +1,4 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   Copyright (C) 2020 LNKASIA TECHSOL.
  *   Copyright (C) 2012  Bartek Przybylski
  *
@@ -46,7 +46,7 @@ public class AccountUtils {
      * Constructs full url to host and webdav resource basing on host version
      *
      * @param context Valid Android {@link Context}, needed to access the {@link AccountManager}
-     * @param account A stored ownCloud {@link Account}
+     * @param account A stored PiCloud {@link Account}
      * @return Full URL to WebDAV endpoint in the server corresponding to 'account'.
      * @throws AccountNotFoundException When 'account' is unknown for the AccountManager
      */
@@ -61,7 +61,7 @@ public class AccountUtils {
      * Extracts url server from the account
      *
      * @param context Valid Android {@link Context}, needed to access the {@link AccountManager}
-     * @param account A stored ownCloud {@link Account}
+     * @param account A stored PiCloud {@link Account}
      * @return Full URL to the server corresponding to 'account', ending in the base path
      * common to all API endpoints.
      * @throws AccountNotFoundException When 'account' is unknown for the AccountManager
@@ -137,7 +137,7 @@ public class AccountUtils {
     /**
      * Get the user id corresponding to an OC account.
      *
-     * @param account ownCloud account
+     * @param account PiCloud account
      * @return user id
      */
     public static String getUserId(Account account, Context context) {
@@ -195,12 +195,12 @@ public class AccountUtils {
 
     public static class Constants {
         /**
-         * Base url should point to owncloud installation without trailing / ie:
+         * Base url should point to PiCloud installation without trailing / ie:
          * http://server/path or https://owncloud.server
          */
         public static final String KEY_OC_BASE_URL = "oc_base_url";
         /**
-         * Flag signaling if the ownCloud server can be accessed with OAuth2 access tokens.
+         * Flag signaling if the PiCloud server can be accessed with OAuth2 access tokens.
          */
 
         // TODO Please review this constants, move them out of the library, the rest of OAuth variables are in data layer

@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Bartek Przybylski
  * Copyright (C) 2011  Bartek Przybylski
@@ -20,7 +20,7 @@
 package com.owncloud.android.utils;
 
 /**
- * Represents a session to an ownCloud instance
+ * Represents a session to an PiCloud instance
  */
 public class OwnCloudSession {
     private String mSessionName;

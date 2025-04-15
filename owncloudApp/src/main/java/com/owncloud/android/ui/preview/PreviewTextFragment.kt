@@ -1,5 +1,5 @@
 /**
- * PiCloud Android client application
+ * PiCloud  Android client application
  *
  * @author Christian Schabesberger
  * @author Shashvat Kedia
@@ -101,7 +101,7 @@ class PreviewTextFragment : FileFragment() {
             }
 
             if (account == null) {
-                throw IllegalStateException("Instanced with a NULL ownCloud Account")
+                throw IllegalStateException("Instanced with a NULL PiCloud Account")
             }
         } else {
             file = savedInstanceState.getParcelable(EXTRA_FILE)
