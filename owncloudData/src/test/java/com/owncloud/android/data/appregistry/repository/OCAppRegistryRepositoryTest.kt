@@ -112,7 +112,7 @@ class OCAppRegistryRepositoryTest {
     @Test
     fun `getUrlToOpenInWeb returns a URL String`() {
         val expectedUrl = "https://example.com/file123"
-        val appName = "ownCloud"
+        val appName = "PiCloud"
         every {
             remoteAppRegistryDataSource.getUrlToOpenInWeb(
                 accountName = OC_ACCOUNT_NAME,

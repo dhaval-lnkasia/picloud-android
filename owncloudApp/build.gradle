@@ -211,7 +211,7 @@ def setOutputFileName(variant, appName, callerProject) {
     if (appName) {
         newName += appName
     } else {
-        newName += "owncloud"
+        newName += "picloud"
     }
 
     def versionName = "$variant.mergedFlavor.versionName"
