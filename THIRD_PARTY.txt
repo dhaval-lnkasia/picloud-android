@@ -1,5 +1,5 @@
 ###################################################################
-  ownCloud Android client
+  PiCloud Android client
 
   Copyright (C) 2020 LNKASIA TECHSOL.
   Copyright (C) 2012  Bartek Przybylski

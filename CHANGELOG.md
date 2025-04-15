@@ -27,9 +27,9 @@
 * [Changelog for 2.18.1](#changelog-for-owncloud-android-client-2181-2021-07-20)
 * [Changelog for 2.18.0](#changelog-for-owncloud-android-client-2180-2021-05-24)
 * [Changelog for 2.17 versions and below](#changelog-for-217-versions-and-below)
-# Changelog for ownCloud Android Client [unreleased] (UNRELEASED)
+# Changelog for PiCloud Android client [unreleased] (UNRELEASED)
 
-The following sections list the changes in ownCloud Android Client unreleased relevant to
+The following sections list the changes in PiCloud Android client unreleased relevant to
 ownCloud admins and users.
 
 [unreleased]: https://github.com/owncloud/android/compare/v4.5.1...master
@@ -56,9 +56,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4536
    https://github.com/owncloud/android/pull/4558
 
-# Changelog for ownCloud Android Client [4.5.1] (2025-04-03)
+# Changelog for PiCloud Android client [4.5.1] (2025-04-03)
 
-The following sections list the changes in ownCloud Android Client 4.5.1 relevant to
+The following sections list the changes in PiCloud Android client 4.5.1 relevant to
 ownCloud admins and users.
 
 [4.5.1]: https://github.com/owncloud/android/compare/v4.5.0...v4.5.1
@@ -87,9 +87,9 @@ ownCloud admins and users.
    https://github.com/owncloud/enterprise/issues/7134
    https://github.com/owncloud/android/pull/4564
 
-# Changelog for ownCloud Android Client [4.5.0] (2025-03-24)
+# Changelog for PiCloud Android client [4.5.0] (2025-03-24)
 
-The following sections list the changes in ownCloud Android Client 4.5.0 relevant to
+The following sections list the changes in PiCloud Android client 4.5.0 relevant to
 ownCloud admins and users.
 
 [4.5.0]: https://github.com/owncloud/android/compare/v4.4.1...v4.5.0
@@ -269,9 +269,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4521
    https://github.com/owncloud/android/pull/4525
 
-# Changelog for ownCloud Android Client [4.4.1] (2024-10-30)
+# Changelog for PiCloud Android client [4.4.1] (2024-10-30)
 
-The following sections list the changes in ownCloud Android Client 4.4.1 relevant to
+The following sections list the changes in PiCloud Android client 4.4.1 relevant to
 ownCloud admins and users.
 
 [4.4.1]: https://github.com/owncloud/android/compare/v4.4.0...v4.4.1
@@ -290,9 +290,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4495
    https://github.com/owncloud/android/pull/4502
 
-# Changelog for ownCloud Android Client [4.4.0] (2024-09-30)
+# Changelog for PiCloud Android client [4.4.0] (2024-09-30)
 
-The following sections list the changes in ownCloud Android Client 4.4.0 relevant to
+The following sections list the changes in PiCloud Android client 4.4.0 relevant to
 ownCloud admins and users.
 
 [4.4.0]: https://github.com/owncloud/android/compare/v4.3.1...v4.4.0
@@ -442,9 +442,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4458
    https://github.com/owncloud/android/pull/4470
 
-# Changelog for ownCloud Android Client [4.3.1] (2024-07-22)
+# Changelog for PiCloud Android client [4.3.1] (2024-07-22)
 
-The following sections list the changes in ownCloud Android Client 4.3.1 relevant to
+The following sections list the changes in PiCloud Android client 4.3.1 relevant to
 ownCloud admins and users.
 
 [4.3.1]: https://github.com/owncloud/android/compare/v4.3.0...v4.3.1
@@ -462,9 +462,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4434
    https://github.com/owncloud/android/pull/4440
 
-# Changelog for ownCloud Android Client [4.3.0] (2024-07-01)
+# Changelog for PiCloud Android client [4.3.0] (2024-07-01)
 
-The following sections list the changes in ownCloud Android Client 4.3.0 relevant to
+The following sections list the changes in PiCloud Android client 4.3.0 relevant to
 ownCloud admins and users.
 
 [4.3.0]: https://github.com/owncloud/android/compare/v4.2.2...v4.3.0
@@ -750,9 +750,9 @@ ownCloud admins and users.
    https://github.com/owncloud/enterprise/issues/6594
    https://github.com/owncloud/android/pull/4423
 
-# Changelog for ownCloud Android Client [4.2.2] (2024-05-30)
+# Changelog for PiCloud Android client [4.2.2] (2024-05-30)
 
-The following sections list the changes in ownCloud Android Client 4.2.2 relevant to
+The following sections list the changes in PiCloud Android client 4.2.2 relevant to
 ownCloud admins and users.
 
 [4.2.2]: https://github.com/owncloud/android/compare/v4.2.1...v4.2.2
@@ -772,9 +772,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4352
    https://github.com/owncloud/android/pull/4415
 
-# Changelog for ownCloud Android Client [4.2.1] (2024-02-22)
+# Changelog for PiCloud Android client [4.2.1] (2024-02-22)
 
-The following sections list the changes in ownCloud Android Client 4.2.1 relevant to
+The following sections list the changes in PiCloud Android client 4.2.1 relevant to
 ownCloud admins and users.
 
 [4.2.1]: https://github.com/owncloud/android/compare/v4.2.0...v4.2.1
@@ -792,9 +792,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4318
    https://github.com/owncloud/android/pull/4323
 
-# Changelog for ownCloud Android Client [4.2.0] (2024-02-12)
+# Changelog for PiCloud Android client [4.2.0] (2024-02-12)
 
-The following sections list the changes in ownCloud Android Client 4.2.0 relevant to
+The following sections list the changes in PiCloud Android client 4.2.0 relevant to
 ownCloud admins and users.
 
 [4.2.0]: https://github.com/owncloud/android/compare/v4.1.1...v4.2.0
@@ -1106,9 +1106,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4288
    https://github.com/owncloud/android/pull/4291
 
-# Changelog for ownCloud Android Client [4.1.1] (2023-10-18)
+# Changelog for PiCloud Android client [4.1.1] (2023-10-18)
 
-The following sections list the changes in ownCloud Android Client 4.1.1 relevant to
+The following sections list the changes in PiCloud Android client 4.1.1 relevant to
 ownCloud admins and users.
 
 [4.1.1]: https://github.com/owncloud/android/compare/v4.1.0...v4.1.1
@@ -1136,9 +1136,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/4189
 
-# Changelog for ownCloud Android Client [4.1.0] (2023-08-23)
+# Changelog for PiCloud Android client [4.1.0] (2023-08-23)
 
-The following sections list the changes in ownCloud Android Client 4.1.0 relevant to
+The following sections list the changes in PiCloud Android client 4.1.0 relevant to
 ownCloud admins and users.
 
 [4.1.0]: https://github.com/owncloud/android/compare/v4.0.0...v4.1.0
@@ -1387,9 +1387,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4101
    https://github.com/owncloud/android/pull/4112
 
-# Changelog for ownCloud Android Client [4.0.0] (2023-05-29)
+# Changelog for PiCloud Android client [4.0.0] (2023-05-29)
 
-The following sections list the changes in ownCloud Android Client 4.0.0 relevant to
+The following sections list the changes in PiCloud Android client 4.0.0 relevant to
 ownCloud admins and users.
 
 [4.0.0]: https://github.com/owncloud/android/compare/v3.0.4...v4.0.0
@@ -1579,9 +1579,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/4028
    https://github.com/owncloud/android/pull/4032
 
-# Changelog for ownCloud Android Client [3.0.4] (2023-03-07)
+# Changelog for PiCloud Android client [3.0.4] (2023-03-07)
 
-The following sections list the changes in ownCloud Android Client 3.0.4 relevant to
+The following sections list the changes in PiCloud Android client 3.0.4 relevant to
 ownCloud admins and users.
 
 [3.0.4]: https://github.com/owncloud/android/compare/v3.0.3...v3.0.4
@@ -1607,9 +1607,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android-library/pull/547
 
-# Changelog for ownCloud Android Client [3.0.3] (2023-02-13)
+# Changelog for PiCloud Android client [3.0.3] (2023-02-13)
 
-The following sections list the changes in ownCloud Android Client 3.0.3 relevant to
+The following sections list the changes in PiCloud Android client 3.0.3 relevant to
 ownCloud admins and users.
 
 [3.0.3]: https://github.com/owncloud/android/compare/v3.0.2...v3.0.3
@@ -1646,9 +1646,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3866
    https://github.com/owncloud/android/pull/3899
 
-# Changelog for ownCloud Android Client [3.0.2] (2023-01-26)
+# Changelog for PiCloud Android client [3.0.2] (2023-01-26)
 
-The following sections list the changes in ownCloud Android Client 3.0.2 relevant to
+The following sections list the changes in PiCloud Android client 3.0.2 relevant to
 ownCloud admins and users.
 
 [3.0.2]: https://github.com/owncloud/android/compare/v3.0.1...v3.0.2
@@ -1673,9 +1673,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3869
 
-# Changelog for ownCloud Android Client [3.0.1] (2022-12-21)
+# Changelog for PiCloud Android client [3.0.1] (2022-12-21)
 
-The following sections list the changes in ownCloud Android Client 3.0.1 relevant to
+The following sections list the changes in PiCloud Android client 3.0.1 relevant to
 ownCloud admins and users.
 
 [3.0.1]: https://github.com/owncloud/android/compare/v3.0.0...v3.0.1
@@ -1702,9 +1702,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3841
 
-# Changelog for ownCloud Android Client [3.0.0] (2022-12-12)
+# Changelog for PiCloud Android client [3.0.0] (2022-12-12)
 
-The following sections list the changes in ownCloud Android Client 3.0.0 relevant to
+The following sections list the changes in PiCloud Android client 3.0.0 relevant to
 ownCloud admins and users.
 
 [3.0.0]: https://github.com/owncloud/android/compare/v2.21.2...v3.0.0
@@ -1772,9 +1772,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3005
    https://github.com/owncloud/android/pull/3766
 
-# Changelog for ownCloud Android Client [2.21.2] (2022-09-07)
+# Changelog for PiCloud Android client [2.21.2] (2022-09-07)
 
-The following sections list the changes in ownCloud Android Client 2.21.2 relevant to
+The following sections list the changes in PiCloud Android client 2.21.2 relevant to
 ownCloud admins and users.
 
 [2.21.2]: https://github.com/owncloud/android/compare/v2.21.1...v2.21.2
@@ -1814,9 +1814,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/pull/3738
    https://github.com/owncloud/android-library/pull/505
 
-# Changelog for ownCloud Android Client [2.21.1] (2022-06-15)
+# Changelog for PiCloud Android client [2.21.1] (2022-06-15)
 
-The following sections list the changes in ownCloud Android Client 2.21.1 relevant to
+The following sections list the changes in PiCloud Android client 2.21.1 relevant to
 ownCloud admins and users.
 
 [2.21.1]: https://github.com/owncloud/android/compare/v2.21.0...v2.21.1
@@ -1833,9 +1833,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3696
 
-# Changelog for ownCloud Android Client [2.21.0] (2022-06-07)
+# Changelog for PiCloud Android client [2.21.0] (2022-06-07)
 
-The following sections list the changes in ownCloud Android Client 2.21.0 relevant to
+The following sections list the changes in PiCloud Android client 2.21.0 relevant to
 ownCloud admins and users.
 
 [2.21.0]: https://github.com/owncloud/android/compare/v2.20.0...v2.21.0
@@ -2037,9 +2037,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3653
 
-# Changelog for ownCloud Android Client [2.20.0] (2022-02-16)
+# Changelog for PiCloud Android client [2.20.0] (2022-02-16)
 
-The following sections list the changes in ownCloud Android Client 2.20.0 relevant to
+The following sections list the changes in PiCloud Android client 2.20.0 relevant to
 ownCloud admins and users.
 
 [2.20.0]: https://github.com/owncloud/android/compare/v2.19.0...v2.20.0
@@ -2155,9 +2155,9 @@ ownCloud admins and users.
 
    https://github.com/owncloud/android/pull/3539
 
-# Changelog for ownCloud Android Client [2.19.0] (2021-11-15)
+# Changelog for PiCloud Android client [2.19.0] (2021-11-15)
 
-The following sections list the changes in ownCloud Android Client 2.19.0 relevant to
+The following sections list the changes in PiCloud Android client 2.19.0 relevant to
 ownCloud admins and users.
 
 [2.19.0]: https://github.com/owncloud/android/compare/v2.18.3...v2.19.0
@@ -2308,9 +2308,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/125
    https://github.com/owncloud/android/pull/3336
 
-# Changelog for ownCloud Android Client [2.18.3] (2021-10-27)
+# Changelog for PiCloud Android client [2.18.3] (2021-10-27)
 
-The following sections list the changes in ownCloud Android Client 2.18.3 relevant to
+The following sections list the changes in PiCloud Android client 2.18.3 relevant to
 ownCloud admins and users.
 
 [2.18.3]: https://github.com/owncloud/android/compare/v2.18.1...v2.18.3
@@ -2330,9 +2330,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3422
    https://github.com/owncloud/android/pull/3423
 
-# Changelog for ownCloud Android Client [2.18.1] (2021-07-20)
+# Changelog for PiCloud Android client [2.18.1] (2021-07-20)
 
-The following sections list the changes in ownCloud Android Client 2.18.1 relevant to
+The following sections list the changes in PiCloud Android client 2.18.1 relevant to
 ownCloud admins and users.
 
 [2.18.1]: https://github.com/owncloud/android/compare/v2.18.0...v2.18.1
@@ -2379,9 +2379,9 @@ ownCloud admins and users.
    https://github.com/owncloud/android/issues/3272
    https://github.com/owncloud/android/pull/3297
 
-# Changelog for ownCloud Android Client [2.18.0] (2021-05-24)
+# Changelog for PiCloud Android client [2.18.0] (2021-05-24)
 
-The following sections list the changes in ownCloud Android Client 2.18.0 relevant to
+The following sections list the changes in PiCloud Android client 2.18.0 relevant to
 ownCloud admins and users.
 
 

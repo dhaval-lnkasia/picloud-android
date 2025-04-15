@@ -1,5 +1,5 @@
  /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Abel García de Prada
  * @author Juan Carlos Garrote Gascón

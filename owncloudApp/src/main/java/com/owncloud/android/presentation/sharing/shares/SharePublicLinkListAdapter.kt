@@ -1,7 +1,7 @@
 package com.owncloud.android.presentation.sharing.shares
 
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David González Verdugo
  * @author Christian Schabesberger

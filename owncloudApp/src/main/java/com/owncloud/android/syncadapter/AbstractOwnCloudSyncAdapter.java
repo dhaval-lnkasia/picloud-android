@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author sassman
  * @author David A. Velasco

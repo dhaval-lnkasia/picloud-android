@@ -7,7 +7,7 @@ assignees: ''
 ---
 
 <!--
-Another release for the ownCloud Android client!
+Another release for the PiCloud Android client!
 For Open releases, keep the Open release template and remove the Patch and Enterprise release ones
 For Patch releases, keep the Patch release template and remove the Open and Enterprise release ones
 For Enterprise releases, keep the Enterprise release template and remove the Open and Patch release ones

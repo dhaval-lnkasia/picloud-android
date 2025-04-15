@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  * <p>
  * @author Aitor Ballesteros Pavón
  * <p>

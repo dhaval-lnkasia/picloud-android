@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  * <p>
  * Copyright (C) 2022 LNKASIA TECHSOL.
  * <p>

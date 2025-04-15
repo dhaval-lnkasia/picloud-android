@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Bartosz Przybylski
  * @author Christian Schabesberger

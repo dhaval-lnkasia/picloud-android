@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Andy Scherzinger
  * @author Tobias Kaminsky
