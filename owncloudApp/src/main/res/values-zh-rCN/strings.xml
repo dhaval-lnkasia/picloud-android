@@ -92,7 +92,7 @@
   <string name="prefs_remember_last_upload_location_summary">记住上次共享上传的位置</string>
   <string name="prefs_pattern">图案锁</string>
   <string name="prefs_enable_logging">开启日志</string>
-  <string name="prefs_enable_logging_summary">激活后，日志可能会影响性能并包含敏感信息。 但是，日志不会自动提交到 ownCloud 服务器。 与他人共享日志是用户的唯一责任。</string>
+  <string name="prefs_enable_logging_summary">激活后，日志可能会影响性能并包含敏感信息。 但是，日志不会自动提交到 PiCloud 服务器。 与他人共享日志是用户的唯一责任。</string>
   <string name="prefs_send_feedback">发送反馈</string>
   <string name="prefs_app_version">程序版本</string>
   <string name="prefs_app_version_summary">%1$s %2$s 版本 %3$s （%4$s） </string>

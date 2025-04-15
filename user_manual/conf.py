@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# ownCloud Documentation documentation build configuration file, created by
+# PiCloud Documentation documentation build configuration file, created by
 # sphinx-quickstart on Mon Oct 22 23:16:40 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -49,8 +49,8 @@ version = '2.7.0'
 release = '2.7.0'
 
 # General information about the project.
-project = u'ownCloud Android App %s Manual' % (version)
-copyright = u'2013-{:%Y}, The ownCloud developers'.format(datetime.now())
+project = u'PiCloud Android App %s Manual' % (version)
+copyright = u'2013-{:%Y}, The PiCloud developers'.format(datetime.now())
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -187,8 +187,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'ownCloudAndroidAppManual.tex', u'ownCloud Android App Manual',
-   u'The ownCloud developers', 'manual'),
+  ('index', 'ownCloudAndroidAppManual.tex', u'PiCloud Android App Manual',
+   u'The PiCloud developers', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -218,9 +218,9 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('owncloud.1', 'owncloud', u'Android synchronisation and file management utility.',
-     [u'The ownCloud developers'], 1),
-    ('owncloudcmd.1', 'owncloudcmd', u'ownCloud Android app.',
-     [u'The ownCloud developers'], 1),
+     [u'The PiCloud developers'], 1),
+    ('owncloudcmd.1', 'owncloudcmd', u'PiCloud Android app.',
+     [u'The PiCloud developers'], 1),
 ]
 
 # If true, show URL addresses after external links.
@@ -233,8 +233,8 @@ man_show_urls = True
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ownCloudClientManual', u'ownCloud Android App Manual',
-   u'The ownCloud developers', 'ownCloud', 'The ownCloud Android App Manual.',
+  ('index', 'ownCloudClientManual', u'PiCloud Android App Manual',
+   u'The PiCloud developers', 'ownCloud', 'The PiCloud Android App Manual.',
    'Miscellaneous'),
 ]
 
@@ -251,10 +251,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'ownCloud Android App Manual'
-epub_author = u'The ownCloud developers'
-epub_publisher = u'The ownCloud developers'
-epub_copyright = u'2013-{:%Y}, The ownCloud developers'.format(datetime.now())
+epub_title = u'PiCloud Android App Manual'
+epub_author = u'The PiCloud developers'
+epub_publisher = u'The PiCloud developers'
+epub_copyright = u'2013-{:%Y}, The PiCloud developers'.format(datetime.now())
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
@@ -10,7 +10,7 @@
  * @author Juan Carlos Garrote Gascón
  *
  * Copyright (C) 2011  Bartek Przybylski
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -184,7 +184,7 @@ class FileDisplayActivity : FileActivity(),
     override fun onCreate(savedInstanceState: Bundle?) {
         Timber.v("onCreate() start")
 
-        super.onCreate(savedInstanceState) // this calls onAccountChanged() when ownCloud Account is valid
+        super.onCreate(savedInstanceState) // this calls onAccountChanged() when PiCloud Account is valid
 
         checkPasscodeEnforced(this)
 
@@ -308,7 +308,7 @@ class FileDisplayActivity : FileActivity(),
     }
 
     /**
-     * Called when the ownCloud [Account] associated to the Activity was just updated.
+     * Called when the PiCloud [Account] associated to the Activity was just updated.
      */
     override fun onAccountSet(stateWasRecovered: Boolean) {
         super.onAccountSet(stateWasRecovered)

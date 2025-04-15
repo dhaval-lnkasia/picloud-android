@@ -1,10 +1,10 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
  * @author Christian Schabesberger
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  *
  *
  * This program is free software: you can redistribute it and/or modify
@@ -59,7 +59,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 import timber.log.Timber
 
 /**
- * Holds a swiping galley where image files contained in an ownCloud directory are shown
+ * Holds a swiping galley where image files contained in an PiCloud directory are shown
  */
 class PreviewImageActivity : FileActivity(),
     FileFragment.ContainerActivity,

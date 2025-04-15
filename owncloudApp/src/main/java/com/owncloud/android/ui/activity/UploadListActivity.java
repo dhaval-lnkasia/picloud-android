@@ -1,5 +1,5 @@
 /*
- * ownCloud Android client application
+ * PiCloud ndroid client application
  *
  * @author LukeOwncloud
  * @author David A. Velasco
@@ -7,7 +7,7 @@
  * @author Christian Schabesberger
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2022 ownCloud GmbH.
+ * Copyright (C) 2022 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -160,7 +160,7 @@ public class UploadListActivity extends FileActivity {
     }
 
     /**
-     * Called when the ownCloud {@link Account} associated to the Activity was just updated.
+     * Called when the PiCloud @link Account} associated to the Activity was just updated.
      */
     @Override
     protected void onAccountSet(boolean stateWasRecovered) {

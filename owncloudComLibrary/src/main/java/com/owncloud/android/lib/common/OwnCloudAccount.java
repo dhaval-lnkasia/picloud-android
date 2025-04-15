@@ -1,5 +1,5 @@
-/* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2016 ownCloud GmbH.
+/* PiCloud Android Library is available under MIT license
+ *   Copyright (C) 2016 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@ import com.owncloud.android.lib.common.authentication.OwnCloudCredentialsFactory
 import java.io.IOException;
 
 /**
- * OwnCloud Account
+ * PiCloud Account
  *
  * @author David A. Velasco
  */

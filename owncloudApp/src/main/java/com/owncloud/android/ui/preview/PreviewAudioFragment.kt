@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author Christian Schabesberger
@@ -8,7 +8,7 @@
  * @author Shashvat Kedia
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -65,7 +65,7 @@ import timber.log.Timber
 /**
  * This fragment shows a preview of a downloaded audio.
  *
- * Trying to get an instance with NULL [OCFile] or ownCloud [Account] values will
+ * Trying to get an instance with NULL [OCFile] or PiCloud [Account] values will
  * produce an [IllegalStateException].
  *
  * If the [OCFile] passed is not downloaded, an [IllegalStateException] is
@@ -144,7 +144,7 @@ class PreviewAudioFragment : FileFragment() {
             autoplay = savedInstanceState.getBoolean(EXTRA_PLAYING, args.getBoolean(EXTRA_PLAYING))
         }
         checkNotNull(file) { "Instanced with a NULL OCFile" }
-        checkNotNull(account) { "Instanced with a NULL ownCloud Account" }
+        checkNotNull(account) { "Instanced with a NULL PiCloud Account" }
         check(file.isAvailableLocally) { "There is no local file to preview" }
         check(file.isAudio) { "Not an audio file" }
         extractAndSetCoverArt(file)
@@ -409,7 +409,7 @@ class PreviewAudioFragment : FileFragment() {
          * Public factory method to create new PreviewAudioFragment instances.
          *
          * @param file                  An [OCFile] to preview in the fragment
-         * @param account               ownCloud account containing file
+         * @param account               PiCloud account containing file
          * @param startPlaybackPosition Time in milliseconds where the play should be started
          * @param autoplay              If 'true', the file will be played automatically when
          * the fragment is displayed.

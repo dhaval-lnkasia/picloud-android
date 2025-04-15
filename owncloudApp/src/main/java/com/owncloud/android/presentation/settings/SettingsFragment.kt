@@ -1,9 +1,9 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2021 ownCloud GmbH.
+ * Copyright (C) 2021 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -115,7 +115,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
             )
             setOnPreferenceClickListener {
                 val clipboard = requireActivity().getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                val clip = ClipData.newPlainText("ownCloud app version", summary)
+                val clip = ClipData.newPlainText("PiCloud app version", summary)
                 clipboard.setPrimaryClip(clip)
                 showMessageInSnackbar(getString(R.string.clipboard_text_copied))
                 true

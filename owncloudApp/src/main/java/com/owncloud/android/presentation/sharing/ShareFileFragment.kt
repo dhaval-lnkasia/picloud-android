@@ -1,12 +1,12 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author masensio
  * @author David A. Velasco
  * @author Juan Carlos González Cabrero
  * @author David González Verdugo
  * @author Christian Schabesberger
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -581,7 +581,7 @@ class ShareFileFragment : Fragment(), ShareUserListAdapter.ShareUserAdapterListe
          * Public factory method to create new ShareFileFragment instances.
          *
          * @param fileToShare An [OCFile] to show in the fragment
-         * @param account     An ownCloud account
+         * @param account     An PiCloud account
          * @return A new instance of fragment ShareFileFragment.
          */
         fun newInstance(

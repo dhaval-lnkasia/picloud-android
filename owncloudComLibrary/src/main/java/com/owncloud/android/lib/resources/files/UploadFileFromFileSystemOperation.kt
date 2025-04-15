@@ -1,5 +1,5 @@
-/* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2023 ownCloud GmbH.
+/* PiCloud Android Library is available under MIT license
+ *   Copyright (C) 2023 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -45,7 +45,7 @@ import java.net.URL
 import java.util.concurrent.atomic.AtomicBoolean
 
 /**
- * Remote operation performing the upload of a remote file to the ownCloud server.
+ * Remote operation performing the upload of a remote file to the PiCloud server.
  *
  * @author David A. Velasco
  * @author masensio

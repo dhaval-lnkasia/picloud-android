@@ -1,5 +1,5 @@
-/* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2021 ownCloud GmbH.
+/* PiCloud Android Library is available under MIT license
+ *   Copyright (C) 2021 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -38,7 +38,7 @@ import java.net.URL
 import java.util.concurrent.TimeUnit
 
 /**
- * Remote operation performing the rename of a remote file or folder in the ownCloud server.
+ * Remote operation performing the rename of a remote file or folder in the PiCloud server.
  *
  * @author David A. Velasco
  * @author masensio

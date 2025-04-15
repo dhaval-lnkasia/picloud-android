@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
@@ -7,7 +7,7 @@
  * @author Shashvat Kedia
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -54,7 +54,7 @@ sealed class LocalStorageProvider(private val rootFolderName: String) {
 
     /**
      * Get local path where OCFile file is to be stored after upload. That is,
-     * corresponding local path (in local owncloud storage) to remote uploaded
+     * corresponding local path (in local PiCloud storage) to remote uploaded
      * file.
      */
     fun getDefaultSavePathFor(

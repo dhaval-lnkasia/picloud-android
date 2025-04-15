@@ -1,5 +1,5 @@
 /*
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author David González Verdugo
@@ -7,7 +7,7 @@
  * @author Shashvat Kedia
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2022 ownCloud GmbH.
+ * Copyright (C) 2022 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -273,7 +273,7 @@ public class OperationsService extends Service {
                 RemoteOperation currentOperation = next.second;
                 RemoteOperationResult result;
                 try {
-                    /// prepare client object to send the request to the ownCloud server
+                    /// prepare client object to send the request to the PiCloud server
                     if (mLastTarget == null || !mLastTarget.equals(next.first)) {
                         mLastTarget = next.first;
                         OwnCloudAccount ocAccount;

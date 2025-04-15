@@ -1,5 +1,5 @@
 /*
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Andy Scherzinger
  * @author Christian Schabesberger
@@ -7,7 +7,7 @@
  * @author Shashvat Kedia
  * @author Abel García de Prada
  * @author Juan Carlos Garrote Gascón
- * Copyright (C) 2021 ownCloud GmbH.
+ * Copyright (C) 2021 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -673,7 +673,7 @@ abstract class DrawerActivity : ToolbarActivity() {
     }
 
     /**
-     * populates the avatar drawer array with the first three ownCloud [Account]s while the first element is
+     * populates the avatar drawer array with the first three PiCloud [Account]s while the first element is
      * always the current account.
      */
     private fun populateDrawerOwnCloudAccounts() {

@@ -1,9 +1,9 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *   @author masensio
  *   @author David A. Velasco
  *   @author David González Verdugo
  *   @author Fernando Sanz Velasco
- *   Copyright (C) 2021 ownCloud GmbH
+ *   Copyright (C) 2021 LNKASIA TECHSOL
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal

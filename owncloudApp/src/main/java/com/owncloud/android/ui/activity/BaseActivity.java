@@ -1,7 +1,7 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  * <p>
- * Copyright (C) 2022 ownCloud GmbH.
+ * Copyright (C) 2022 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -42,17 +42,17 @@ import com.owncloud.android.ui.dialog.LoadingDialog;
 import timber.log.Timber;
 
 /**
- * Base Activity with common behaviour for activities dealing with ownCloud {@link Account}s .
+ * Base Activity with common behaviour for activities dealing with PiCloud {@link Account}s .
  */
 public abstract class BaseActivity extends AppCompatActivity {
 
     /**
-     * ownCloud {@link Account} where the main {@link OCFile} handled by the activity is located.
+     * PiCloud {@link Account} where the main {@link OCFile} handled by the activity is located.
      */
     private Account mCurrentAccount;
 
     /**
-     * Flag to signal that the activity is finishing to enforce the creation of an ownCloud {@link Account}.
+     * Flag to signal that the activity is finishing to enforce the creation of an PiCloud {@link Account}.
      */
     private boolean mRedirectingToSetupAccount = false;
 
@@ -67,7 +67,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected boolean mAccountWasRestored;
 
     /**
-     * Access point to the cached database for the current ownCloud {@link Account}.
+     * Access point to the cached database for the current PiCloud {@link Account}.
      */
     private FileDataStorageManager mStorageManager = null;
 
@@ -85,7 +85,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     /**
-     * Since ownCloud {@link Account}s can be managed from the system setting menu, the existence of the {@link
+     * Since PiCloud {@link Account}s can be managed from the system setting menu, the existence of the {@link
      * Account} associated to the instance must be checked every time it is restarted.
      */
     @Override
@@ -100,9 +100,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     /**
-     * Sets and validates the ownCloud {@link Account} associated to the Activity.
+     * Sets and validates the PiCloud {@link Account} associated to the Activity.
      * <p/>
-     * If not valid, tries to swap it for other valid and existing ownCloud {@link Account}.
+     * If not valid, tries to swap it for other valid and existing PiCloud {@link Account}.
      * <p/>
      * POSTCONDITION: updates {@link #mAccountWasSet} and {@link #mAccountWasRestored}.
      *
@@ -125,10 +125,10 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     /**
-     * Tries to swap the current ownCloud {@link Account} for other valid and existing.
+     * Tries to swap the current PiCloud {@link Account} for other valid and existing.
      * <p/>
-     * If no valid ownCloud {@link Account} exists, the the user is requested
-     * to create a new ownCloud {@link Account}.
+     * If no valid PiCloud {@link Account} exists, the the user is requested
+     * to create a new PiCloud {@link Account}.
      * <p/>
      * POSTCONDITION: updates {@link #mAccountWasSet} and {@link #mAccountWasRestored}.
      */
@@ -153,7 +153,7 @@ public abstract class BaseActivity extends AppCompatActivity {
      * Launches the account creation activity.
      *
      * @param mandatoryCreation When 'true', if an account is not created by the user, the app will be closed.
-     *                          To use when no ownCloud account is available.
+     *                          To use when no PiCloud account is available.
      */
     protected void createAccount(boolean mandatoryCreation) {
         AccountManager am = AccountManager.get(getApplicationContext());
@@ -167,7 +167,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     /**
-     * Called when the ownCloud {@link Account} associated to the Activity was just updated.
+     * Called when the PiCloud {@link Account} associated to the Activity was just updated.
      * <p>
      * Child classes must grant that state depending on the {@link Account} is updated.
      */
@@ -185,10 +185,10 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     /**
-     * Getter for the ownCloud {@link Account} where the main {@link OCFile} handled by the activity
+     * Getter for the PiCloud {@link Account} where the main {@link OCFile} handled by the activity
      * is located.
      *
-     * @return OwnCloud {@link Account} where the main {@link OCFile} handled by the activity
+     * @return PiCloud {@link Account} where the main {@link OCFile} handled by the activity
      * is located.
      */
     public Account getAccount() {
@@ -226,7 +226,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     /**
      * Helper class handling a callback from the {@link AccountManager} after the creation of
-     * a new ownCloud {@link Account} finished, successfully or not.
+     * a new PiCloud {@link Account} finished, successfully or not.
      */
     public class AccountCreationCallback implements AccountManagerCallback<Bundle> {
 

@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud ndroid client application
  *
  * @author Bartek Przybylski
  * @author masensio
@@ -10,7 +10,7 @@
  * @author Juan Carlos Garrote Gascón
  * @author David Crespo Ríos
  * Copyright (C) 2011 Bartek Przybylski
- * Copyright (C) 2021 ownCloud GmbH.
+ * Copyright (C) 2021 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

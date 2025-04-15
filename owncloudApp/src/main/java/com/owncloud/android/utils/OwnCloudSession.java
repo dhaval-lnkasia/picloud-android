@@ -1,9 +1,9 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Bartek Przybylski
  * Copyright (C) 2011  Bartek Przybylski
- * Copyright (C) 2016 ownCloud GmbH.
+ * Copyright (C) 2016 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -20,7 +20,7 @@
 package com.owncloud.android.utils;
 
 /**
- * Represents a session to an ownCloud instance
+ * Represents a session to an PiCloud instance
  */
 public class OwnCloudSession {
     private String mSessionName;

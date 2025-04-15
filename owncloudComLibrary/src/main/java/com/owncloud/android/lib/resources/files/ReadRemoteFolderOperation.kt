@@ -1,5 +1,5 @@
-/* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2020 ownCloud GmbH.
+/* PiCloud Android Library is available under MIT license
+ *   Copyright (C) 2020 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -41,7 +41,7 @@ import timber.log.Timber
 import java.net.URL
 
 /**
- * Remote operation performing the read of remote file or folder in the ownCloud server.
+ * Remote operation performing the read of remote file or folder in the PiCloud server.
  *
  * @author David A. Velasco
  * @author masensio
@@ -55,7 +55,7 @@ class ReadRemoteFolderOperation(
     /**
      * Performs the read operation.
      *
-     * @param client Client object to communicate with the remote ownCloud server.
+     * @param client Client object to communicate with the remote PiCloud server.
      */
     override fun run(client: OwnCloudClient): RemoteOperationResult<ArrayList<RemoteFile>> {
         try {

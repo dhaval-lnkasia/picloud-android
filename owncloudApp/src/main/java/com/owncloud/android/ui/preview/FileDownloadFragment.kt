@@ -1,9 +1,9 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author Christian Schabesberger
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  *
  *
  * This program is free software: you can redistribute it and/or modify

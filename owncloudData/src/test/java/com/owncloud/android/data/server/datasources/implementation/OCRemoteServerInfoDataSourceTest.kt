@@ -1,10 +1,10 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Abel García de Prada
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -147,7 +147,7 @@ class OCRemoteServerInfoDataSourceTest {
     }
 
     @Test(expected = OwncloudVersionNotSupportedException::class)
-    fun `getRemoteStatus throws exception when ownCloud version is not supported`() {
+    fun `getRemoteStatus throws exception when PiCloud version is not supported`() {
         val expectedValue = remoteServerInfo.copy(ownCloudVersion = OwnCloudVersion("9.0.0"))
         prepareRemoteStatusToBeRetrieved(expectedValue)
 
@@ -155,7 +155,7 @@ class OCRemoteServerInfoDataSourceTest {
     }
 
     @Test
-    fun `getRemoteStatus returns RemoteServerInfo with hidden ownCloud version`() {
+    fun `getRemoteStatus returns RemoteServerInfo with hidden PiCloud version`() {
         val expectedValue = remoteServerInfo.copy(ownCloudVersion = OwnCloudVersion(""))
         prepareRemoteStatusToBeRetrieved(expectedValue)
 

@@ -1,5 +1,5 @@
-/* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2016 ownCloud GmbH.
+/* PiCloud Android Library is available under MIT license
+ *   Copyright (C) 2016 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -104,7 +104,7 @@ class ConnectionValidator(
 
     private fun isOwnCloudStatusOk(client: OwnCloudClient): Boolean {
         val reply = getOwnCloudStatus(client)
-        // dont check status code. It currently relais on the broken redirect code of the owncloud client
+        // dont check status code. It currently relais on the broken redirect code of the PiCloud client
         // TODO: Use okhttp redirect and add this check again
         // return reply.httpCode == HttpConstants.HTTP_OK &&
         return !reply.isException &&

@@ -1,10 +1,10 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author Juan Carlos González Cabrero
  * @author David González Verdugo
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  *
  *
  * This program is free software: you can redistribute it and/or modify
@@ -51,7 +51,7 @@ import timber.log.Timber
 import java.util.Locale
 
 /**
- * Content provider for search suggestions, to search for users and groups existing in an ownCloud server.
+ * Content provider for search suggestions, to search for users and groups existing in an PiCloud server.
  */
 class UsersAndGroupsSearchProvider : ContentProvider() {
     private lateinit var uriMatcher: UriMatcher
@@ -102,7 +102,7 @@ class UsersAndGroupsSearchProvider : ContentProvider() {
      * @param selection     Expected to be NULL.
      * @param selectionArgs Expected to be NULL.
      * @param sortOrder     Expected to be NULL.
-     * @return Cursor with users and groups in the ownCloud server that match 'userQuery'.
+     * @return Cursor with users and groups in the PiCloud server that match 'userQuery'.
      */
     override fun query(
         uri: Uri,

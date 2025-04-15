@@ -1,11 +1,11 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author masensio
  * @author David A. Velasco
  * @author Christian Schabesberger
  * @author David González Verdugo
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -456,7 +456,7 @@ class EditPrivateShareFragment : DialogFragment() {
          *
          * @param shareToEdit   An [OCShare] to show and edit in the fragment
          * @param sharedFile    The [OCFile] bound to 'shareToEdit'
-         * @param account       The ownCloud account holding 'sharedFile'
+         * @param account       The PiCloud account holding 'sharedFile'
          * @return A new instance of fragment EditPrivateShareFragment.
          */
         fun newInstance(shareToEdit: OCShare, sharedFile: OCFile, account: Account): EditPrivateShareFragment {

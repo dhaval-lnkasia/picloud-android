@@ -1,10 +1,10 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author sassman
  * @author David A. Velasco
  * Copyright (C) 2011  Bartek Przybylski
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -38,7 +38,7 @@ import com.owncloud.android.lib.common.accounts.AccountUtils.AccountNotFoundExce
 import java.io.IOException;
 
 /**
- * Base synchronization adapter for ownCloud to discover full account.
+ * Base synchronization adapter for PiCloud to discover full account.
  * <p>
  * Implements the standard {@link AbstractThreadedSyncAdapter}.
  */

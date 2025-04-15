@@ -1,12 +1,12 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Christian Schabesberger
  * @author Shashvat Kedia
  * @author Juan Carlos Garrote Gascón
  * @author Parneet Singh
  *
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -96,7 +96,7 @@ public class PreviewTextFragment extends FileFragment {
      * Public factory method to create new PreviewTextFragment instances.
      *
      * @param file    An {@link OCFile} to preview in the fragment
-     * @param account ownCloud account containing file
+     * @param account PiCloud account containing file
      * @return Fragment ready to be used.
      */
     public static PreviewTextFragment newInstance(
@@ -164,7 +164,7 @@ public class PreviewTextFragment extends FileFragment {
                 throw new IllegalStateException("Instanced with a NULL OCFile");
             }
             if (mAccount == null) {
-                throw new IllegalStateException("Instanced with a NULL ownCloud Account");
+                throw new IllegalStateException("Instanced with a NULL PiCloud Account");
             }
         } else {
             file = savedInstanceState.getParcelable(EXTRA_FILE);

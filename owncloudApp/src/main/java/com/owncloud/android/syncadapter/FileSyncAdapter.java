@@ -1,11 +1,11 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
  * @author David González Verdugo
  * Copyright (C) 2011  Bartek Przybylski
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -57,7 +57,7 @@ import static org.koin.java.KoinJavaComponent.inject;
 
 /**
  * Implementation of {@link AbstractThreadedSyncAdapter} responsible for synchronizing
- * ownCloud files.
+ * PiCloud files.
  * <p>
  * Performs a full synchronization of the account received in {@link #onPerformSync(Account, Bundle,
  * String, ContentProviderClient, SyncResult)}.
@@ -144,7 +144,7 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
             return;
         }
 
-        Timber.d("Synchronization of ownCloud account " + account.name + " starting");
+        Timber.d("Synchronization of PiCloud account " + account.name + " starting");
         sendLocalBroadcast(EVENT_FULL_SYNC_START, null, null);  // message to signal the start
         // of the synchronization to the UI
         try {
@@ -198,7 +198,7 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
     }
 
     /**
-     * Updates the local copy of capabilities information of the ownCloud server
+     * Updates the local copy of capabilities information of the PiCloud server
      */
     private void updateCapabilities() {
         @NotNull Lazy<RefreshCapabilitiesFromServerAsyncUseCase> refreshCapabilitiesFromServerAsyncUseCase =

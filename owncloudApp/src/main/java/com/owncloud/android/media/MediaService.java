@@ -1,9 +1,9 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David A. Velasco
  * @author Christian Schabesberger
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -230,7 +230,7 @@ public class MediaService extends Service implements OnCompletionListener, OnPre
     @Override
     public void onCreate() {
         super.onCreate();
-        Timber.d("Creating ownCloud media service");
+        Timber.d("Creating PiCloud media service");
 
         mWifiLock = ((WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE)).
                 createWifiLock(WifiManager.WIFI_MODE_FULL, MEDIA_WIFI_LOCK_TAG);

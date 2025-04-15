@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Parneet Singh
  * @author David A. Velasco
@@ -8,7 +8,7 @@
  * @author Shashvat Kedia
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -124,7 +124,7 @@ class PreviewVideoActivity : FileActivity(), Player.Listener, OnPrepareVideoPlay
         }
 
         checkNotNull(file) { "Instanced with a NULL OCFile" }
-        checkNotNull(account) { "Instanced with a NULL ownCloud Account" }
+        checkNotNull(account) { "Instanced with a NULL PiCloud Account" }
         check(file.isVideo) { "Not a video file" }
 
         supportActionBar?.run {

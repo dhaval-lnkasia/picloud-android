@@ -1,9 +1,9 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author David González Verdugo
  * @author Abel García de Prada
- * Copyright (C) 2021 ownCloud GmbH.
+ * Copyright (C) 2021 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

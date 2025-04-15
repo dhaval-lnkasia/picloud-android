@@ -1,8 +1,8 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  * <p>
  * Copyright (C) 2012  Bartek Przybylski
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -43,11 +43,11 @@ public class AccountUtils {
     private static final int ACCOUNT_VERSION = 1;
 
     /**
-     * Can be used to get the currently selected ownCloud {@link Account} in the
+     * Can be used to get the currently selected PiCloud {@link Account} in the
      * application preferences.
      *
      * @param context The current application {@link Context}
-     * @return The ownCloud {@link Account} currently saved in preferences, or the first
+     * @return The PiCloud {@link Account} currently saved in preferences, or the first
      * {@link Account} available, if valid (still registered in the system as ownCloud
      * account). If none is available and valid, returns null.
      */
@@ -58,7 +58,7 @@ public class AccountUtils {
         SharedPreferences appPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         String accountName = appPreferences.getString(SELECTED_ACCOUNT, null);
 
-        // account validation: the saved account MUST be in the list of ownCloud Accounts known by the AccountManager
+        // account validation: the saved account MUST be in the list of PiCloud Accounts known by the AccountManager
         if (accountName != null) {
             for (Account account : ocAccounts) {
                 if (account.name.equals(accountName)) {
@@ -119,11 +119,11 @@ public class AccountUtils {
     }
 
     /**
-     * Returns owncloud account identified by accountName or null if it does not exist.
+     * Returns PiCloud account identified by accountName or null if it does not exist.
      *
      * @param context
      * @param accountName name of account to be returned
-     * @return owncloud account named accountName
+     * @return PiCloud account named accountName
      */
     public static Account getOwnCloudAccountByName(Context context, String accountName) {
         Account[] ocAccounts = AccountManager.get(context).getAccountsByType(

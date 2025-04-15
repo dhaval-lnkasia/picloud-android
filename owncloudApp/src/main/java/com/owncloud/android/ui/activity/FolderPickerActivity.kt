@@ -1,5 +1,5 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Shashvat Kedia
  * @author David González Verdugo
@@ -7,7 +7,7 @@
  * @author Juan Carlos Garrote Gascón
  * @author Aitor Ballesteros Pavón
  *
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -130,7 +130,7 @@ open class FolderPickerActivity : FileActivity(),
     }
 
     /**
-     * Called when the ownCloud {@link Account} associated to the Activity was just updated.
+     * Called when the PiCloud {@link Account} associated to the Activity was just updated.
      */
     override fun onAccountSet(stateWasRecovered: Boolean) {
         super.onAccountSet(stateWasRecovered)

@@ -1,5 +1,5 @@
-/* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2023 ownCloud GmbH.
+/* PiCloud Android Library is available under MIT license
+ *   Copyright (C) 2023 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@ import java.net.URL
 import java.util.concurrent.TimeUnit
 
 /**
- * Remote operation copying a remote file or folder in the ownCloud server to a different folder
+ * Remote operation copying a remote file or folder in the PiCloud server to a different folder
  * in the same account.
  *
  * Allows renaming the copying file/folder at the same time.
@@ -61,7 +61,7 @@ class CopyRemoteFileOperation(
     /**
      * Performs the rename operation.
      *
-     * @param client Client object to communicate with the remote ownCloud server.
+     * @param client Client object to communicate with the remote PiCloud server.
      */
     override fun run(client: OwnCloudClient): RemoteOperationResult<String> {
         if (targetRemotePath == sourceRemotePath && sourceSpaceWebDavUrl == targetSpaceWebDavUrl) {

@@ -1,11 +1,11 @@
 /*
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Bartek Przybylski
  * @author David A. Velasco
  * @author David González Verdugo
  * Copyright (C) 2011  Bartek Przybylski
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -232,7 +232,7 @@ public class DisplayUtils {
     }
 
     /**
-     * set the owncloud standard colors for the snackbar.
+     * set the PiCloud standard colors for the snackbar.
      *
      * @param context  the context relevant for setting the color according to the context's theme
      * @param snackbar the snackbar to be colored

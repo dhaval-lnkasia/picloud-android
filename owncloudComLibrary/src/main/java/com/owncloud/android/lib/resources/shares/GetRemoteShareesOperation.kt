@@ -1,10 +1,10 @@
-/* ownCloud Android Library is available under MIT license
+/* PiCloud Android Library is available under MIT license
  *
  *   @author Christian Schabesberger
  *   @author masensio
  *   @author David A. Velasco
  *   @author David González Verdugo
- *   Copyright (C) 2020 ownCloud GmbH.
+ *   Copyright (C) 2020 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal
@@ -51,7 +51,7 @@ import java.net.URL
  * Created by masensio on 08/10/2015.
  *
  *
- * Retrieves a list of sharees (possible targets of a share) from the ownCloud server.
+ * Retrieves a list of sharees (possible targets of a share) from the PiCloud server.
  *
  *
  * Currently only handles users and groups. Users in other OC servers (federation) should be added later.

@@ -1,8 +1,8 @@
 /**
- * ownCloud Android client application
+ * PiCloud Android client application
  *
  * @author Abel García de Prada
- * Copyright (C) 2023 ownCloud GmbH.
+ * Copyright (C) 2023 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,
@@ -115,7 +115,7 @@ class ClientManager(
 
         val accountName = preferencesProvider.getString(SELECTED_ACCOUNT, null)
 
-        // account validation: the saved account MUST be in the list of ownCloud Accounts known by the AccountManager
+        // account validation: the saved account MUST be in the list of PiCloud Accounts known by the AccountManager
         accountName?.let { selectedAccountName ->
             ocAccounts.firstOrNull { it.name == selectedAccountName }?.let { return it }
         }
