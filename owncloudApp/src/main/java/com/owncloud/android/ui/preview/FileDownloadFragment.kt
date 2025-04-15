@@ -5,7 +5,7 @@
  * @author Christian Schabesberger
  * @author Juan Carlos Garrote Gascón
  *
- * Copyright (C) 2024 ownCloud GmbH.
+ * Copyright (C) 2024 LNKASIA TECHSOL.
  *
  *
  * This program is free software: you can redistribute it and/or modify

@@ -4,7 +4,7 @@
  * @author masensio
  * @author Christian Schabesberger
  * @author David González Verdugo
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

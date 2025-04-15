@@ -10,7 +10,7 @@
  * @author Juan Carlos Garrote Gascón
  *
  * Copyright (C) 2011  Bartek Przybylski
- * Copyright (C) 2022 ownCloud GmbH.
+ * Copyright (C) 2022 LNKASIA TECHSOL.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

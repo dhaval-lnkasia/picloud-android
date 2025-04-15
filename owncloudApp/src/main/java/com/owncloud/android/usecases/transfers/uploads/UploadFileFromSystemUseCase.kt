@@ -4,7 +4,7 @@
  * @author Juan Carlos Garrote Gascón
  * @author Aitor Ballesteros Pavón
  *
- * Copyright (C) 2024 ownCloud GmbH.
+ * Copyright (C) 2024 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

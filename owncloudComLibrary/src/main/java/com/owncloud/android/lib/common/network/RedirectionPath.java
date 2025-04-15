@@ -2,7 +2,7 @@
  *
  *   @author David A. Velasco
  *
- *   Copyright (C) 2016 ownCloud GmbH.
+ *   Copyright (C) 2016 LNKASIA TECHSOL.
  *
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
  *   of this software and associated documentation files (the "Software"), to deal

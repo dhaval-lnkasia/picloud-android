@@ -8,7 +8,7 @@
  * @author Juan Carlos Garrote Gascón
  * @author Jorge Aguado Recio
  *
- * Copyright (C) 2025 ownCloud GmbH.
+ * Copyright (C) 2025 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

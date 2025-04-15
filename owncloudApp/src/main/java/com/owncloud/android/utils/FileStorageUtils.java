@@ -7,7 +7,7 @@
  * @author Shashvat Kedia
  * @author Juan Carlos Garrote Gascón
  * <p>
- * Copyright (C) 2020 ownCloud GmbH.
+ * Copyright (C) 2020 LNKASIA TECHSOL.
  * <p>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2,

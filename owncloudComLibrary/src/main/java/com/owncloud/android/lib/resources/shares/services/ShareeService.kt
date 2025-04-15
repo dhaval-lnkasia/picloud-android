@@ -1,5 +1,5 @@
 /* ownCloud Android Library is available under MIT license
- *   Copyright (C) 2022 ownCloud GmbH.
+ *   Copyright (C) 2022 LNKASIA TECHSOL.
  *
  *   @author Christian Schabesberger
  *   @author David González Verdugo

@@ -3,7 +3,7 @@
  *
  * @author masensio
  * @author Christian Schabesberger
- * Copyright (C) 2018 ownCloud GmbH.
+ * Copyright (C) 2018 LNKASIA TECHSOL.
  *
  *
  * This program is free software: you can redistribute it and/or modify
